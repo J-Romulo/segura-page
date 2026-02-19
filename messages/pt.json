@@ -1,0 +1,26 @@
+{
+  "topBanner": {
+    "message": "senhasegura agora é Segura®!",
+    "cta": "Conheça Nossa Nova Marca",
+    "link": "/pt-br/nova-marca"
+  },
+  "topMenu": {
+    "becomePartner": "Torne-se um Parceiro",
+    "contact": "Contato",
+    "support": "Suporte",
+    "docs": "Documentação"
+  },
+  "nav": {
+    "platform": "Plataforma",
+    "solutions": "Soluções",
+    "services": "Serviços",
+    "partners": "Parceiros",
+    "company": "Empresa",
+    "resources": "Recursos"
+  },
+  "topBannerFooter": {
+    "message": "Confira nossa biblioteca de recursos práticos para equipes, gerentes e executivos de segurança.",
+    "cta": "Acesse Agora",
+    "link": "/pt-br/recursos"
+  }
+}

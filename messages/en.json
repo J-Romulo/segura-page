@@ -1,0 +1,26 @@
+{
+  "topBanner": {
+    "message": "senhasegura is now Segura®!",
+    "cta": "Get to Know Our New Brand",
+    "link": "/new-brand"
+  },
+  "topMenu": {
+    "becomePartner": "Become a Partner",
+    "contact": "Contact",
+    "support": "Support",
+    "docs": "Docs"
+  },
+  "nav": {
+    "platform": "Platform",
+    "solutions": "Solutions",
+    "services": "Services",
+    "partners": "Partners",
+    "company": "Company",
+    "resources": "Resources"
+  },
+  "topBannerFooter": {
+    "message": "Check out our library of actionable resources for security teams, managers, and executives.",
+    "cta": "Access Now",
+    "link": "/resources"
+  }
+}
