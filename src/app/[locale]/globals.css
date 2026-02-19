@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  /* Segura Brand Colors */
+  --color-deep-green: #003a32;
+  --color-mid-green: #006b69;
+  --color-go-green: #00d1b5;
+  --color-mint-green: #9af1dc;
+  --color-password-green: #F0F9F7;
+
+  --color-sand-beige: #fdf8f1;
+  --color-segura-black: #141414;
+  --color-segura-white: #f9f9fa;
+  --color-cta: #ff905f;
+
+  /* Semantic defaults */
+  --background: var(--color-sand-beige);
+  --foreground: var(--color-deep-green);
+}
+
+@theme inline {
+  /* Fonts */
+  --font-sans: var(--font-inter), Arial, Helvetica, sans-serif;
+  --font-display: "Sentient", "STIX Two Text", Georgia, serif;
+
+  /* Expose all brand colors to Tailwind */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-deep-green: var(--color-deep-green);
+  --color-mid-green: var(--color-mid-green);
+  --color-go-green: var(--color-go-green);
+  --color-mint-green: var(--color-mint-green);
+  --color-password-green: var(--color-password-green);
+  --color-sand-beige: var(--color-sand-beige);
+  --color-segura-black: var(--color-segura-black);
+  --color-segura-white: var(--color-segura-white);
+  --color-cta: var(--color-cta);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+/* Headline utility — apply font-display in Tailwind or via this class */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
