@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 
-export function TopMenu() {
-  const t = useTranslations("topMenu");
+export function Menu() {
+  const translation = useTranslations("header.topMenu");
 
   return (
     <section className="w-full py-3 bg-segura-white">
@@ -11,18 +11,18 @@ export function TopMenu() {
             style={{ fontFamily: "Inter, Arial, sans-serif", fontSize: "14px" }}>
           <li>
             <Link href="/partners/become-a-partner">
-              <b>{t("becomePartner")}</b>
+              <b>{translation("becomePartner")}</b>
             </Link>
           </li>
           <li>
-            <Link href="/contact">{t("contact")}</Link>
+            <Link href="/contact">{translation("contact")}</Link>
           </li>
           <li>
-            <Link href="/services/solution-center">{t("support")}</Link>
+            <Link href="/services/solution-center">{translation("support")}</Link>
           </li>
           <li className="hidden sm:block">
             <Link href="https://docs.senhasegura.io/docs/en/senhasegura" target="_blank" rel="noopener noreferrer">
-              {t("docs")}
+              {translation("docs")}
             </Link>
           </li>
         </ul>

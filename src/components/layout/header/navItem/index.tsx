@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { ChevronDown } from "lucide-react";
 
 interface NavItemProps {
   label: string;
@@ -18,12 +19,11 @@ export function NavItem({ label, children }: NavItemProps) {
         onClick={() => setMobileOpen((o) => !o)}
       >
         <span>{label}</span>
-        <svg
-          width="10" height="10" viewBox="0 0 12 8" fill="none"
+        <ChevronDown
+          size={14}
+          strokeWidth={3}
           className={`transition-transform duration-300 lg:group-hover:rotate-180 ${mobileOpen ? "rotate-180" : ""}`}
-        >
-          <path d="M1 1L6 6L11 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
+        />
       </button>
 
       {/* Desktop dropdown */}

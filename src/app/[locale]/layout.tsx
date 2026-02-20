@@ -5,8 +5,8 @@ import { routing } from "../../i18n/routing";
 import { Inter } from "next/font/google";
 import { Metadata } from "next";
 import "./globals.css";
-import { Header } from "./sections/header";
-import Footer from "./sections/footer";
+import { Header } from "../../components/layout/header";
+import Footer from "../../components/layout/footer";
 
 const inter = Inter({
   variable: "--font-inter",
