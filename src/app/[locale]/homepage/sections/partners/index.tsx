@@ -1,16 +1,17 @@
 import Image from "next/image";
-import Coracoes from "../../../../../assets/partners/3_coracoes.png";
-import Bell from "../../../../../assets/partners/bell.png";
-import Boticario from "../../../../../assets/partners/boticario.png";
-import BTG from "../../../../../assets/partners/btg.png";
-import Deloitte from "../../../../../assets/partners/deloitte.png";
-import HelenOfTroy from "../../../../../assets/partners/helen_of_troy.png";
-import LeroyMerlin from "../../../../../assets/partners/leroy_merlin.png";
-import Liberyseguros from "../../../../../assets/partners/libery_seguros.png";
-import PGIM from "../../../../../assets/partners/pgim.png";
-import Santander from "../../../../../assets/partners/santander.png";
-import Telefonica from "../../../../../assets/partners/telefonica.png";
-import UOL from "../../../../../assets/partners/uol.png";
+import { useTranslations } from "next-intl";
+import Coracoes from "../../../../../assets/homepage/partners/3_coracoes.png";
+import Bell from "../../../../../assets/homepage/partners/bell.png";
+import Boticario from "../../../../../assets/homepage/partners/boticario.png";
+import BTG from "../../../../../assets/homepage/partners/btg.png";
+import Deloitte from "../../../../../assets/homepage/partners/deloitte.png";
+import HelenOfTroy from "../../../../../assets/homepage/partners/helen_of_troy.png";
+import LeroyMerlin from "../../../../../assets/homepage/partners/leroy_merlin.png";
+import Liberyseguros from "../../../../../assets/homepage/partners/libery_seguros.png";
+import PGIM from "../../../../../assets/homepage/partners/pgim.png";
+import Santander from "../../../../../assets/homepage/partners/santander.png";
+import Telefonica from "../../../../../assets/homepage/partners/telefonica.png";
+import UOL from "../../../../../assets/homepage/partners/uol.png";
 
 const PARTNERS = [
   { src: BTG, alt: "BTG" },
@@ -28,19 +29,19 @@ const PARTNERS = [
 ];
 
 export function Partners() {
+  const translation = useTranslations("partners");
+
   return (
     <section
       className='bg-segura-white py-16'
       style={{ fontFamily: "Inter, Arial, sans-serif" }}>
       <div className='container mx-auto flex flex-col gap-10 items-center w-full max-md:max-w-full px-12'>
-        {/* Header */}
         <div className='text-center text-deep-green'>
           <h2 className='font-display font-semibold text-2xl'>
-            Leading Companies Across 70+ Countries Trust Segura®
+            {translation("title")}
           </h2>
         </div>
 
-        {/* Grid */}
         <div className='grid grid-cols-2 md:grid-cols-6 gap-12 items-center justify-center place-items-center w-full'>
           {PARTNERS.map(({ src, alt }) => (
             <Image

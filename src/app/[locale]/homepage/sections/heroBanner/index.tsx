@@ -1,9 +1,13 @@
 import Image from "next/image";
-import HeroBg from "../../../../../assets/heroBanner/background.jpg";
-import RiverwoodLogo from "../../../../../assets/heroBanner/riverwood_capital.png";
+import { useTranslations } from "next-intl";
+import HeroBg from "../../../../../assets/homepage/heroBanner/background.jpg";
+import RiverwoodLogo from "../../../../../assets/homepage/heroBanner/riverwood_capital.png";
 import { Button } from "../../../../../components/ui/Button";
 
 export function HeroBanner() {
+  const t = useTranslations("heroBanner");
+  const stats = t.raw("stats") as string[];
+
   return (
     <section className='mt-40 pt-14 md:mt-0 md:pt-64 py-20 md:py-29 relative'>
       {/* Dark overlay */}
@@ -25,21 +29,22 @@ export function HeroBanner() {
         {/* Left */}
         <div className='flex flex-col gap-4 lg:gap-8 w-full lg:w-1/2'>
           <h1 className='font-display text-5xl font-semibold text-segura-white'>
-            <span className='font-normal'>Segura® raises</span>
-            <em> strategic growth round</em>
-            <span className='font-normal'> from Riverwood Capital</span>
+            {t.rich("title", {
+              normal: (chunks) => <span className='font-normal'>{chunks}</span>,
+              em: (chunks) => <em>{chunks}</em>,
+            })}
           </h1>
           <p className='text-lg font-normal text-segura-white'>
-            Leading tech investor from the Silicon Valley backs the PAM platform{" "}
-            <span className='text-go-green font-semibold'>
-              trusted by 1,000+
-            </span>{" "}
-            growing organizations worldwide.
+            {t.rich("description", {
+              highlight: (chunks) => (
+                <span className='text-go-green font-semibold'>{chunks}</span>
+              ),
+            })}
           </p>
           <div>
             <Image
               src={RiverwoodLogo}
-              alt='Riverwood Capital'
+              alt={t("riverwoodAlt")}
               className='w-1/3'
             />
           </div>
@@ -47,19 +52,20 @@ export function HeroBanner() {
             <Button
               href='/post/riverwood-capital-investment'
               variant='secondary'>
-              Read the Announcement ›
+              {t("cta")}
             </Button>
           </div>
         </div>
 
         {/* Right */}
         <div className='flex flex-col self-start h-full lg:pl-24 text-go-green'>
-          <p className='text-lg font-normal border-l-2 border-go-green pl-5'>
-            Trusted by 1,000+ Enterprises
-          </p>
-          <p className='text-lg font-normal border-l-2 border-go-green pl-5'>
-            Across 70 Countries
-          </p>
+          {stats.map((stat) => (
+            <p
+              key={stat}
+              className='text-lg font-normal border-l-2 border-go-green pl-5'>
+              {stat}
+            </p>
+          ))}
         </div>
       </div>
     </section>

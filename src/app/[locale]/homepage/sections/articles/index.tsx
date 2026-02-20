@@ -1,11 +1,19 @@
 import Link from "next/link";
 import Image from "next/image";
-import CyberDefenseSlide from "../../../../../assets/ResourceManagementSlides/cyber_defense.webp";
-import CyberSecurity from "../../../../../assets/ResourceManagementSlides/cyber_security.png";
-import PAM from "../../../../../assets/ResourceManagementSlides/pam.webp";
-import MachineIdentity from "../../../../../assets/ResourceManagementSlides/machine_identity.webp";
+import { useLocale, useTranslations } from "next-intl";
 
-const CARDS = [
+import CyberDefenseSlide from "../../../../../assets/homepage/articles/cyber_defense.webp";
+import CyberSecurity from "../../../../../assets/homepage/articles/cyber_security.png";
+import PAM from "../../../../../assets/homepage/articles/pam.webp";
+import MachineIdentity from "../../../../../assets/homepage/articles/machine_identity.webp";
+
+import CyberDefenseSlidePt from "../../../../../assets/homepage/articles/defesa_cibernetica.png";
+import CyberSecurityPt from "../../../../../assets/homepage/articles/ciberseguranca.png";
+import PAMPt from "../../../../../assets/homepage/articles/acesso_privilegiado.png";
+import MachineIdentityPt from "../../../../../assets/homepage/articles/identidade_de_maquina.png";
+
+
+const EN_CARDS = [
   {
     href: "/post/privileged-access-management-pam-a-complete-guide",
     src: PAM,
@@ -28,7 +36,34 @@ const CARDS = [
   },
 ];
 
-export function ManagementResources() {
+const PT_CARDS = [
+  {
+    href: "/pt-br/post/gestao-de-acesso-privilegiado-pam-guia-completo",
+    src: PAMPt,
+    alt: "Gerenciamento de Acesso Privilegiado: Um Guia Completo",
+  },
+  {
+    href: "/pt-br/post/ciberseguranca-como-impulsionadora-de-negocios",
+    src: CyberSecurityPt,
+    alt: "Cibersegurança como Habilitadora de Negócios",
+  },
+  {
+    href: "/pt-br/post/identidade-de-maquina-nao-humana",
+    src: MachineIdentityPt,
+    alt: "Entendendo a Identidade de Máquina",
+  },
+  {
+    href: "/pt-br/post/locked-shields-2025-com-joseph-carson",
+    src: CyberDefenseSlidePt,
+    alt: "Por Dentro do Maior Exercício de Defesa Cibernética do Mundo",
+  },
+];
+
+export function Articles() {
+  const translation = useTranslations("articles");
+  const isBR = useLocale() === "pt";
+  const CARDS = isBR ? PT_CARDS : EN_CARDS;
+  
   return (
     <section
       className='py-15 bg-segura-white text-deep-green'
@@ -37,15 +72,13 @@ export function ManagementResources() {
         {/* Header */}
         <div className='flex flex-col text-center gap-2'>
           <h2 className='font-display text-4xl font-semibold text-deep-green'>
-            Cybersecurity &amp; Risk Management Resources
+            {translation("title")}
           </h2>
           <p className='text-lg font-normal text-deep-green'>
-            Dive into our extensive library of actionable resources for security
-            teams, managers, and executives.
+            {translation("description")}
           </p>
         </div>
 
-        {/* Cards */}
         <div className='max-w-full w-full overflow-x-auto'>
           <div className='flex gap-4 flex-col md:flex-row justify-center'>
             {CARDS.map(({ href, src, alt }) => (
