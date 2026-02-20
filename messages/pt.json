@@ -1,26 +1,220 @@
 {
-  "topBanner": {
-    "message": "senhasegura agora é Segura®!",
-    "cta": "Conheça Nossa Nova Marca",
-    "link": "/pt-br/nova-marca"
+  "header": {
+    "topBanner": {
+      "message": "A senhasegura agora é Segura®!",
+      "cta": "Conheça a nova marca",
+      "link": "/pt-br/nova-marca"
+    },
+    "topMenu": {
+      "becomePartner": "Seja um Parceiro",
+      "contact": "Contato",
+      "support": "Suporte",
+      "docs": "Docs"
+    },
+    "nav": {
+      "platform": "Plataforma",
+      "solutions": "Soluções",
+      "services": "Serviços",
+      "partners": "Parceiros",
+      "company": "Empresa",
+      "resources": "Recursos"
+    },
+    "demo": "Pedir Demo"
   },
-  "topMenu": {
-    "becomePartner": "Torne-se um Parceiro",
-    "contact": "Contato",
-    "support": "Suporte",
-    "docs": "Documentação"
+  "heroBanner": {
+    "title": "<normal>Segura® capta</normal><em> rodada de investimento</em><normal> da Riverwood Capital</normal>",
+    "description": "Venture capital do Vale do Silício investe US$ 25 milhões na plataforma PAM escolhida por <highlight>mais de 1.000</highlight> empresas ao redor do mundo.",
+    "riverwoodAlt": "Riverwood Capital",
+    "cta": "Leia o Anúncio ›",
+    "stats": [
+      "Mais de 1.000 organizações",
+      "em mais de 70 países",
+      "confiam na Segura®"
+    ]
   },
-  "nav": {
-    "platform": "Plataforma",
-    "solutions": "Soluções",
-    "services": "Serviços",
-    "partners": "Parceiros",
-    "company": "Empresa",
-    "resources": "Recursos"
+  "overview": {
+    "title": "A Mais Completa Plataforma de Gestão de Privilégios",
+    "subtitle": "Rápida. Simples. Segura. Tudo o que você precisa para controlar identidades privilegiadas.",
+    "description": "A Segura® para ataques baseados em identidades antes que eles aconteçam — sem atrapalhar seu time. Nossa solução All-In-One protege identidades humanas e de máquina, para que você fique <b>✔ em conformidade, ✔ no controle, e ✔ à frente das ameaças.</b>",
+    "videoFallback": "Seu navegador não suporta vídeos HTML5.",
+    "cta": "Veja a Segura® em Ação ›",
+    "ctaSecondary": "Explore nossas soluções ›"
   },
-  "topBannerFooter": {
+  "partners": {
+    "title": "Empresas líderes em mais de 70 países confiam na Segura®"
+  },
+  "whySegura": {
+    "title": "Por que escolher a Segura®?",
+    "imageAlt": "Comparação entre Segura® e competidores",
+    "items": [
+      {
+        "question": "Solução All in One",
+        "answer": "Tudo o que você precisa para gerenciamento de acesso privilegiado em uma única plataforma poderosa. Sem ferramentas extras, sem complexidade — apenas proteção completa."
+      },
+      {
+        "question": "Sem Custos Ocultos",
+        "answer": "Preços transparentes sem licenças extras. Para você ter previsibilidade no orçamento."
+      },
+      {
+        "question": "Implementação Na Hora",
+        "answer": "Com a Segura® você começa a usar a plataforma mais rápido do que qualquer outra solução PAM."
+      },
+      {
+        "question": "Suporte Top de Linha",
+        "answer": "Com a melhor avaliação do mercado, a nossa equipe de especialistas está sempre pronta para ajudar."
+      }
+    ],
+    "cta": "Assista à Demo ›",
+    "ctaSecondary": "Veja os Produtos ›"
+  },
+  "testimonials": {
+    "quoteTitle": "\"Segura® é uma ferramenta sólida e confiável para acesso remoto em ambientes críticos.\"",
+    "quoteContent": "\"Segura® oferece um conjunto abrangente de recursos de PAM. A plataforma PAM integra-se perfeitamente com vários sistemas (...)\"",
+    "quoteAuthor": "- Security Office Analyst, IT Services - USA",
+    "stats": [
+      {
+        "number": "98%",
+        "description": "de <b>recomendação</b> no Gartner Peer Insights com <b>suporte ao cliente de alta classificação 5/5.</b>"
+      },
+      {
+        "number": "70%",
+        "description": "<b>menor Custo Total de Propriedade (TCO)</b> do que outras soluções líderes."
+      }
+    ],
+    "cta": "Veja porque CISOs confiam na Segura® ›"
+  },
+  "compliance": {
+    "title": "Auditorias sem medo: garanta conformidade em cibersegurança",
+    "description": "Com <b>trilhas de auditoria automatizadas, rotação de senhas e gravação de sessões,</b> a Segura® PAM elimina as brechas de segurança que os órgãos reguladores mais fiscalizam.",
+    "subtitle": "Não se desespere. Prepare-se:",
+    "cta": "Fale com um Especialista ›",
+    "imageAlt": "Compliance",
+    "auditReady": "Perfeita para auditorias de:",
+    "items": [
+      { "label": "ISO 27001 ›", "href": "/pt-br/solucoes/iso-27001" },
+      { "label": "PCI DSS ›", "href": "/pt-br/solucoes/pci-dss" },
+      { "label": "HIPAA ›", "href": "/pt-br/solucoes/hipaa" },
+      { "label": "GDPR ›", "href": "/pt-br/solucoes/lgpd" },
+      { "label": "SOX ›", "href": "/pt-br/solucoes/sox" }
+    ]
+  },
+  "pamReview": {
+    "title": "PAM Sem Medo do Futuro",
+    "description": "A Segura® lidera os principais provedores de PAM por um motivo: segurança que funciona.<br></br>Analistas e consultorias reconhecem nossa inovação e velocidade, enquanto as equipes de TI nos avaliam com 5/5 em suporte e confiabilidade.",
+    "imageAlt": "Quadrant image",
+    "cta": "Veja o que nos torna inigualáveis ›"
+  },
+  "gartnerReport": {
+    "title": "Descubra por que a Segura® PAM foi reconhecida.",
+    "subtitle": "O relatório do Gartner® Magic Quadrant™ 2025 para PAM está aqui.",
+    "description": "Obtenha insights independentes para",
+    "checkItems": [
+      "compartilhar com seu conselho,",
+      "reduzir a incerteza, e",
+      "escolher seu próximo parceiro de PAM com confiança."
+    ],
+    "imageAlt": "Relatório Gartner Magic Quadrant",
+    "cta": "Baixar Relatório ›"
+  },
+  "comparisonTable": {
+    "title": "Por que mais equipes estão escolhendo o Segura®?",
+    "description": "Ouvimos a mesma história repetidamente: implantações longas, recursos ausentes e ferramentas que nunca se encaixam perfeitamente. Ao contrário das soluções PAM antiquadas disponíveis no mercado, <b>o Segura® se encaixa em uma infraestrutura moderna sem atrasar você.</b>",
+    "imageAlt": "Comparação entre Segura® e competidores",
+    "cta": "Veja a Segura® em ação ›"
+  },
+  "peerInsights": {
+    "title": "Melhor Suporte do Mercado",
+    "description": "Segura® é o provedor de PAM mais bem avaliado no Gartner Peer Insights por um motivo.<br></br>Nossos clientes nos dão a classificação mais alta de <b>4,9 no Gartner Peer Insights e 98%</b> em Recomendação.",
+    "imageAlt": "Avaliações da Segura® no Gartner Peer Insights",
+    "cta": "Peça uma Demo ›"
+  },
+  "badges": {
+    "title": "Uma solução e suporte de PAM de qualidade",
+    "quote": "\"A Segura® tem sido uma ótima solução para nós. <b>Nós o usamos diariamente</b> e nós somos <b>certeza de que nossa organização está mais segura</b> com isso.<br></br>A característica de destaque da Segura® para mim é que ela é <b>intuitiva</b> e tem uma <b>interface amigável.</b><br></br>O <b>suporte ao cliente excepcional</b> fornecido pela Segura® também tem sido um fator chave em nossa <b>satisfação</b> com o produto.\"",
+    "quoteAuthor": "- Análise do cliente, serviços de TI",
+    "badges": {
+      "gartnerPeerInsights": "Gartner Peer Insights",
+      "gartnerMQ": "Gartner Magic Quadrant",
+      "softwareReview": "Software Gold Medal 2023",
+      "excellenceAwards": "Cybersecurity Winner 2023",
+      "leadershipCompass": "KuppingerCole Leadership",
+      "g2Leader": "Leader Fall 2023"
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes (FAQs)"
+  },
+  "articles": {
+    "title": "Artigos em Destaque",
+    "description": "Acesse o nosso blog e acompanhe as últimas tendências, melhores práticas e atualizações sobre estratégias e tecnologias de segurança."
+  },
+  "bottomBanner": {
     "message": "Confira nossa biblioteca de recursos práticos para equipes, gerentes e executivos de segurança.",
     "cta": "Acesse Agora",
     "link": "/pt-br/recursos"
+  },
+  "footer": {
+    "askAI": "Pergunte para a IA o que torna a Segura® diferente",
+    "copyright": "Copyright © 2026 Segura MT4 Tecnologia | Todos os direitos reservados.",
+    "terms": "Termos",
+    "privacy": "Privacidade",
+    "cookies": "Cookies",
+    "links": {
+      "stayConnected": {
+        "title": "FIQUE CONECTADO",
+        "description": "Fique por dentro das melhores práticas de segurança, eventos e webinars futuros.",
+        "cta": "Saiba como ›"
+      },
+      "support": {
+        "title": "Serviços",
+        "documentation": "Documentação",
+        "solutionCenter": "Centro de soluções",
+        "suggestions": "Sugestões",
+        "trainingAndCertification": "Treinamento e Certificação",
+        "deploymentAndConsulting": "Implantação",
+        "supportPolicy": "Política de Suporte"
+      },
+      "resources": {
+        "title": "Recursos",
+        "blog": "Materiais Ricos",
+        "ebooks": "eBooks",
+        "whitepapers": "Documentos Técnicos",
+        "datasheets": "Folhas de dados",
+        "infographics": "PAM Maturity",
+        "caseStudies": "Estudos de Caso",
+        "webinarsAndEvents": "Webinars e Eventos"
+      },
+      "partners": {
+        "title": "Produtos",
+        "aboutTheProgram": "Soluções",
+        "becomeAPartner": "Torne-se um Parceiro",
+        "securityAllianceProgram": "Casos de Uso",
+        "university": "Segura® University | Certificação"
+      },
+      "company": {
+        "title": "Segura®",
+        "aboutUs": "Sobre nós",
+        "achievements": "Conquistas",
+        "workWithUs": "Trabalhe conosco",
+        "operations": "Operações",
+        "termsOfUse": "Termos de Uso",
+        "privacyAndCookiePolicy": "Política de Privacidade e Cookies",
+        "informationSecurityPolicy": "Política de Segurança da Informação",
+        "whistleblowingChannel": "Canal de Denúncias"
+      },
+      "usCenter": {
+        "title": "",
+        "name": "",
+        "address": "",
+        "zip": "",
+        "phone1": "",
+        "phone2": ""
+      },
+      "brCenter": {
+        "title": "Endereço",
+        "address": "Rua Joaquim Antunes, 767. São Paulo — SP — Brasil",
+        "phone": "11 3069 3910"
+      }
+    }
   }
 }
