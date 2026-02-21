@@ -2,37 +2,37 @@ import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
 export function SolutionsDropdown() {
-  const t = useTranslations('header.dropdowns.solutions');
+  const translation = useTranslations('header.dropdowns.solutions');
 
   const columns = [
     {
-      title: t('byUseCase.title'),
+      title: translation('byUseCase.title'),
       items: [
-        { href: '/solutions/audit', label: t('byUseCase.audit') },
+        { href: '/solutions/audit', label: translation('byUseCase.audit') },
         {
           href: '/solutions/data-theft-prevention',
-          label: t('byUseCase.dataTheft'),
+          label: translation('byUseCase.dataTheft'),
         },
-        { href: '/solutions/devops', label: t('byUseCase.devops') },
+        { href: '/solutions/devops', label: translation('byUseCase.devops') },
         {
           href: '/solutions/insider-threat',
-          label: t('byUseCase.insiderThreat'),
+          label: translation('byUseCase.insiderThreat'),
         },
         {
           href: '/solutions/third-party-access',
-          label: t('byUseCase.thirdParty'),
+          label: translation('byUseCase.thirdParty'),
         },
         {
           href: '/solutions/privileged-access-recording',
-          label: t('byUseCase.recording'),
+          label: translation('byUseCase.recording'),
         },
         {
           href: '/solutions/privilege-abuse',
-          label: t('byUseCase.privilegeAbuse'),
+          label: translation('byUseCase.privilegeAbuse'),
         },
         {
           href: '/solutions/hardcoded-password',
-          label: t('byUseCase.hardcoded'),
+          label: translation('byUseCase.hardcoded'),
         },
       ],
     },
@@ -41,39 +41,39 @@ export function SolutionsDropdown() {
       items: [
         {
           href: '/solutions/password-reset',
-          label: t('byUseCase2.passwordReset'),
+          label: translation('byUseCase2.passwordReset'),
         },
         {
           href: '/solutions/pam-for-cyber-insurance',
-          label: t('byUseCase2.cyberInsurance'),
+          label: translation('byUseCase2.cyberInsurance'),
         },
         {
           href: '/solutions/machine-identity',
-          label: t('byUseCase2.machineIdentity'),
+          label: translation('byUseCase2.machineIdentity'),
         },
         {
           href: '/solutions/identity-threat-detection-response-itdr',
-          label: t('byUseCase2.itdr'),
+          label: translation('byUseCase2.itdr'),
         },
       ],
     },
     {
-      title: t('byIndustry.title'),
+      title: translation('byIndustry.title'),
       items: [
         {
           href: '/solutions/energy-and-utilities',
-          label: t('byIndustry.energy'),
+          label: translation('byIndustry.energy'),
         },
-        { href: '/solutions/financial', label: t('byIndustry.financial') },
-        { href: '/solutions/government', label: t('byIndustry.government') },
-        { href: '/solutions/health-care', label: t('byIndustry.healthcare') },
-        { href: '/solutions/legal', label: t('byIndustry.legal') },
-        { href: '/solutions/telecoms', label: t('byIndustry.telecoms') },
-        { href: '/solutions/retail', label: t('byIndustry.retail') },
+        { href: '/solutions/financial', label: translation('byIndustry.financial') },
+        { href: '/solutions/government', label: translation('byIndustry.government') },
+        { href: '/solutions/health-care', label: translation('byIndustry.healthcare') },
+        { href: '/solutions/legal', label: translation('byIndustry.legal') },
+        { href: '/solutions/telecoms', label: translation('byIndustry.telecoms') },
+        { href: '/solutions/retail', label: translation('byIndustry.retail') },
       ],
     },
     {
-      title: t('byCertification.title'),
+      title: translation('byCertification.title'),
       items: [
         { href: '/solutions/pci', label: 'PCI DSS' },
         { href: '/solutions/sox', label: 'SOX' },
