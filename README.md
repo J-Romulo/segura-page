@@ -49,11 +49,7 @@ src/
 
 ## Main Challenges
 
-- **Full navigation menu reproduction** — The original menu uses CSS `group-hover` for desktop and required an additional click-based toggle for mobile touch support, both running simultaneously without conflict.
-- **Dropdown architecture** — Six distinct dropdown panels with different layouts, all driven by a single generic `DROPDOWNS` map to keep `Header.tsx` clean and scalable.
-- **Responsive layout** — Several sections required significant restructuring between mobile and desktop (e.g. video/text order swap, hero banner font scaling, three-column grid adaptations).
-- **Multi-language support** — All content including dropdown menus, FAQ, stats, and CTAs fully translated and structured in `next-intl` message files.
-- **Interactive elements** — FAQ accordion, language switcher with outside-click dismissal, and mobile menu all required careful state management to avoid conflicting behaviours.
+My main challenge was time management. I structured my work across three days: on the first day, I focused on replicating all sections and elements of the page without worrying about pixel-perfect accuracy or responsiveness. The second day was dedicated to organizing the codebase, setting up the folder structure, extracting reusable components, and adding translations. On the third day, I focused more on finer details: responsiveness, layout adjustments, finishing translations, testing, implementing the full menu and deployment. Achieving pixel-perfect accuracy proved to be the most challenging part of the process.
 
 ---
 
