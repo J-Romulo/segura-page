@@ -29,7 +29,7 @@
         "col1": {
           "item1": {
             "title": "Acesso Privilegiado Seguro",
-            "desc": "Descubra, gerencie, proteja e audite contas e sessões privilegiadas."
+            "desc": "Descubra, gerencie, proteja e audite contas e sessões."
           },
           "item2": {
             "title": "Proteção de Endpoint & Dispositivos",
@@ -70,27 +70,27 @@
       },
       "solutions": {
         "byUseCase": {
-          "title": "Por Caso de Uso",
-          "audit": "Auditoria e Conformidade",
-          "dataTheft": "Prevenção de Roubo de Dados",
+          "title": "Por Tipo de Uso",
+          "audit": "Auditoria e Compliance",
+          "dataTheft": "Prevenção a Roubo de Dados",
           "devops": "DevOps",
-          "insiderThreat": "Eliminação de Ameaças Internas",
-          "thirdParty": "Acesso de Terceiros e Remoto",
+          "insiderThreat": "Eliminação de Ameaça Interna",
+          "thirdParty": "Acesso Remoto e Terceiros",
           "recording": "Gravação de Acesso Privilegiado",
           "privilegeAbuse": "Abuso de Privilégios",
-          "hardcoded": "Senhas Codificadas"
+          "hardcoded": "Senhas Hardcoded"
         },
         "byUseCase2": {
-          "passwordReset": "Redefinição de Senha",
+          "passwordReset": "Redefinição de Senhas",
           "cyberInsurance": "Seguro Cibernético",
           "machineIdentity": "Identidade de Máquina",
-          "itdr": "Detecção e Resposta a Ameaças de Identidade"
+          "itdr": "Detecção e Resposta a Ameaças de Identidade(ITDR)"
         },
         "byIndustry": {
-          "title": "Por Setor",
-          "energy": "Energia e Utilidades",
+          "title": "Por Indústria",
+          "energy": "Energia e Infraestrutura",
           "financial": "Financeiro",
-          "government": "Governo",
+          "government": "Governamental",
           "healthcare": "Saúde",
           "legal": "Jurídico",
           "telecoms": "Telecomunicações",
@@ -102,66 +102,66 @@
       },
       "services": {
         "deployment": {
-          "title": "Implantação e Consultoria",
-          "desc": "Nós e nossos parceiros oferecemos serviços profissionais para implantação de nossas soluções, incluindo configuração inicial, personalização e consultoria.",
-          "cta": "Explorar Implantação"
+          "title": "Implantação",
+          "desc": "Nós e nossos parceiros oferecemos serviços profissionais para a implementação de nossas soluções, incluindo configuração inicial, customização e consultoria.",
+          "cta": "Veja Implementação"
         },
         "solutionCenter": {
-          "title": "Central de Soluções",
-          "desc": "Oferecemos suporte premiado a todos os nossos clientes. Saiba mais sobre nossos serviços de suporte e recursos e como entrar em contato aqui.",
-          "cta": "Explorar a Central de Soluções"
+          "title": "Suporte",
+          "desc": "Oferecemos o melhor suporte do mercado e em português para todos os nossos clientes. Saiba mais sobre nossos serviços, recursos e como contatar nosso time aqui.",
+          "cta": "Acesse a Central de Suporte"
         },
         "training": {
-          "title": "Treinamento",
-          "desc": "Acesse guias, documentação e vídeos para entender melhor nossos produtos e serviços em nosso portal de e-learning.",
-          "cta": "Explorar Treinamentos & Certificações"
+          "title": "Treinamento e Certificação",
+          "desc": "Acesse guias, documentação e vídeos para entender melhor sobre nossos produtos no nosso portal de e-learning.",
+          "cta": "Veja Treinamentos & Certificados"
         }
       },
       "partners": {
         "affinity": {
-          "title": "Programa de Parceiros Affinity",
+          "title": "Programa de Parceria Affinity",
           "about": "Sobre o Programa",
           "become": "Torne-se um Parceiro",
           "azure": "Segura® no Azure",
-          "linkedin": "Grupo de Parceiros no LinkedIn"
+          "linkedin": "Grupo de Parceiros Segura® no LinkedIn"
         },
         "seePartners": {
-          "title": "Conheça nossos Parceiros",
-          "desc": "Trabalhamos com parceiros em todo o mundo para entregar nossa solução líder à sua organização.",
-          "cta": "Encontrar um parceiro ›"
+          "title": "Veja nossos Parceiros",
+          "desc": "Trabalhamos com parceiros em todo o mundo para oferecer nossa solução líder à sua organização.",
+          "cta": "Encontre um Parceiro ›"
         }
       },
       "company": {
         "aboutUs": {
-          "title": "Sobre Nós",
+          "title": "Sobre nós",
           "meet": "Conheça a Segura®",
           "careers": "Carreiras",
-          "contact": "Fale Conosco",
+          "contact": "Contato",
           "build": "Construa Conosco"
         },
         "whySegura": {
-          "title": "Por que a Segura®",
-          "advantage": "A vantagem Segura®",
+          "title": "Por que Segura®",
+          "advantage": "A vantagem da Segura®",
           "pricing": "Preços",
-          "trust": "Central de Confiança",
-          "awards": "Prêmios & Cobertura de Analistas",
-          "mea": "Segura® no MEA",
+          "trust": "Trust Center",
+          "awards": "Prêmios & Relatórios",
+          "mea": "Segura® no Oriente Médio",
           "jiujitciso": "Segura@ JiuJitCISO"
         },
         "news": {
           "title": "Notícias",
-          "inTheNews": "Segura® na Mídia",
+          "inTheNews": "Imprensa",
           "pressRoom": "Sala de Imprensa"
         },
         "coe": {
           "title": "Centros de Excelência",
-          "saoPaulo": "Sede São Paulo",
-          "riyadh": "CoE Riyadh",
-          "austin": "CoE Austin",
-          "katowice": "CoE Katowice",
-          "kualaLumpur": "CoE Kuala Lumpur - EM BREVE!",
-          "singapore": "CoE Singapura - EM BREVE!",
-          "manila": "CoE Manila - EM BREVE!"
+          "saoPaulo": "São Paulo Headquarter",
+          "riyadh": "Riyadh",
+          "austin": "Austin - EM BREVE!",
+          "katowice": "Katowice CoE",
+          "kualaLumpur": "Kuala Lumpur - EM BREVE!",
+          "singapore": "Singapura - EM BREVE!",
+          "manila": "Manila - EM BREVE!"
         }
       },
       "resources": {
@@ -172,33 +172,33 @@
           "integrations": "Integrações",
           "security": "Segurança",
           "documentation": "Documentação",
-          "customerCases": "Casos de Clientes"
+          "customerCases": "Cases de Clientes"
         },
         "cybersecurity": {
-          "title": "Informações de Cibersegurança",
+          "title": "Informações sobre Cibersegurança",
           "blog": "Blog",
           "pamaturity": "PAMaturity",
           "pam101": "Gestão de Acesso Privilegiado 101",
-          "attackSurface": "Guia de Gerenciamento de Superfície de Ataque",
-          "cloudSecurity": "Segurança em Nuvem: 5 Preocupações",
-          "gartnerMetrics": "16 Métricas do Gartner para Proteção Cibernética",
-          "pamCosts": "Custos de Implementação de PAM",
+          "attackSurface": "Guia para Gestão de Superfície de Ataque",
+          "cloudSecurity": "Segurança em Nuvem: 5 Motivos para se preocupar",
+          "gartnerMetrics": "16 Métricas para Proteção Cibernética",
+          "pamCosts": "Quanto Custa Implementar PAM",
           "identitySecurity": "Inteligência em Segurança de Identidade"
         },
         "reports": {
           "title": "Relatórios",
           "gartner2025": "Relatório Gartner Magic Quadrant 2025",
-          "softwareReviews": "Relatório SoftwareReviews Data Quadrant PAM 2024",
-          "kuppingerCole": "Relatório KuppingerCole 2023 Leadership Compass para Acesso Privilegiado",
-          "gartner2021": "Relatório Gartner Magic Quadrant para PAM 2021",
-          "frostSullivan": "Prêmio Frost & Sullivan de Liderança em Valor ao Cliente 2022"
+          "softwareReviews": "SoftwareReviews Data Quadrant Report Privileged Access Management 2024",
+          "kuppingerCole": "KuppingerCole 2023 Leadership Compass Report for Privileged Access Management",
+          "gartner2021": "Gartner Magic Quadrant for PAM 2021 Report",
+          "frostSullivan": "2022 Frost & Sullivan Customer Value Leadership Award"
         },
         "legal": {
-          "title": "Legal e Licenciamento",
+          "title": "Licenciamento e Jurídico",
           "terms": "Termos de Uso",
           "eula": "Contrato de Licença de Usuário Final (EULA)",
           "privacy": "Política de Privacidade e Cookies",
-          "conditions": "Termos e Condições",
+          "conditions": "Termos e Condições Gerais",
           "operations": "Operações"
         }
       }
