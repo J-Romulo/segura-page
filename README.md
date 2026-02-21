@@ -4,6 +4,7 @@ This project is a **technical challenge** for reproducing the [Segura®](https:/
 
 - **Original Page:** [https://segura.security/](https://segura.security/)
 - **Reproduction:** [URL](https://segura-page.vercel.app?_vercel_share=0msedtDQ5vj6PSy1IjBgjNjSYIFoZAEy)
+
 ---
 
 ## Objective

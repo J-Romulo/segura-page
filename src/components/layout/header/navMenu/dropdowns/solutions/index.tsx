@@ -64,11 +64,23 @@ export function SolutionsDropdown() {
           href: '/solutions/energy-and-utilities',
           label: translation('byIndustry.energy'),
         },
-        { href: '/solutions/financial', label: translation('byIndustry.financial') },
-        { href: '/solutions/government', label: translation('byIndustry.government') },
-        { href: '/solutions/health-care', label: translation('byIndustry.healthcare') },
+        {
+          href: '/solutions/financial',
+          label: translation('byIndustry.financial'),
+        },
+        {
+          href: '/solutions/government',
+          label: translation('byIndustry.government'),
+        },
+        {
+          href: '/solutions/health-care',
+          label: translation('byIndustry.healthcare'),
+        },
         { href: '/solutions/legal', label: translation('byIndustry.legal') },
-        { href: '/solutions/telecoms', label: translation('byIndustry.telecoms') },
+        {
+          href: '/solutions/telecoms',
+          label: translation('byIndustry.telecoms'),
+        },
         { href: '/solutions/retail', label: translation('byIndustry.retail') },
       ],
     },
