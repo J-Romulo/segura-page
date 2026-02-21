@@ -8,11 +8,7 @@ import { Homepage } from './homepage';
 // "All-In_One " overview
 // Description of gartner report different depending on language
 
-// report icons
-// Line height
 // Fix icons, create components for them or use from lucide
-// Tab title
-// Translations
 // Responsividade
 // Acessibilidade
 export default function Home() {
