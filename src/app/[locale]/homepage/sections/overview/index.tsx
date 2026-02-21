@@ -6,8 +6,7 @@ export function Overview() {
 
   return (
     <section
-      className='bg-segura-white py-16'
-      style={{ fontFamily: "Inter, Arial, sans-serif" }}>
+      className='bg-segura-white py-16'>
       <div className='container mx-auto w-full max-md:max-w-full px-12'>
         <div className='w-full grid grid-cols-1 md:grid-cols-12 md:gap-y-8 gap-x-3 md:gap-x-12 items-start gap-10'>
           <div className='col-span-12 md:col-span-6 flex flex-col gap-4 h-full justify-center text-deep-green'>
@@ -17,7 +16,7 @@ export function Overview() {
             <h3 className='font-display text-2xl font-medium text-deep-green'>
               {translation("subtitle")}
             </h3>
-            <p className='text-xl font-normal text-deep-green'>
+            <p className='text-xl font-sans text-deep-green'>
               {translation.rich("description", {
                 b: (chunks) => <b>{chunks}</b>,
               })}

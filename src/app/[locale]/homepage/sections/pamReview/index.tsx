@@ -8,8 +8,7 @@ export function PamReview() {
 
   return (
     <section
-      className='bg-segura-white py-16'
-      style={{ fontFamily: "Inter, Arial, sans-serif" }}>
+      className='bg-segura-white py-16'>
       <div className='container mx-auto flex items-center gap-8 flex-col lg:flex-row w-full max-md:max-w-full px-12'>
         <div className='flex-1 w-full'>
           <Image
@@ -23,7 +22,7 @@ export function PamReview() {
           <h2 className='font-display text-4xl font-semibold text-deep-green'>
             {translation("title")}
           </h2>
-          <p className='font-normal text-lg text-deep-green'>
+          <p className='font-sans text-lg text-deep-green'>
             {translation.rich("description", {
               b: (chunks) => <b>{chunks}</b>,
               br: () => <><br /><br /></>,

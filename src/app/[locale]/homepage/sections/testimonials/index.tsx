@@ -10,8 +10,7 @@ export function Testimonials() {
 
   return (
     <section
-      className='overflow-hidden bg-cover relative'
-      style={{ fontFamily: "Inter, Arial, sans-serif" }}>
+      className='overflow-hidden bg-cover relative'>
       <div className='absolute inset-0 z-0'>
         <Image
           src={TestimonialBg}
@@ -38,10 +37,10 @@ export function Testimonials() {
                 <p className='font-display text-lg md:text-xl font-semibold text-segura-white'>
                   {translation("quoteTitle")}
                 </p>
-                <p className='font-normal text-base text-segura-white'>
+                <p className='font-sans text-base font-normal text-segura-white'>
                   {translation("quoteContent")}
                 </p>
-                <div className='font-medium text-sm text-segura-white'>
+                <div className='font-sans font-medium text-sm text-segura-white'>
                   {translation("quoteAuthor")}
                 </div>
               </blockquote>
@@ -51,7 +50,7 @@ export function Testimonials() {
               {stats.map(({ number, description }) => (
                 <div
                   key={number}
-                  className='border-l-2 border-solid border-password-green'>
+                  className='border-l-2 border-solid border-mint-green font-sans'>
                   <div className='flex flex-col pl-4'>
                     <p className='self-start text-lg md:text-1xl lg:text-2xl font-bold leading-none text-segura-white'>
                       {number}

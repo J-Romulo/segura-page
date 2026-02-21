@@ -20,7 +20,7 @@
 
 @theme inline {
   /* Fonts */
-  --font-sans: var(--font-inter), Arial, Helvetica, sans-serif;
+  --font-sans: var(--font-inter);
   --font-display: "Sentient", "STIX Two Text", Georgia, serif;
 
   /* Expose all brand colors to Tailwind */
@@ -43,7 +43,6 @@ body {
   font-family: var(--font-sans);
 }
 
-/* Headline utility — apply font-display in Tailwind or via this class */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
 }

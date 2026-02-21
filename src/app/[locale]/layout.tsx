@@ -46,7 +46,6 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <head>
-        {/* Sentient — Segura's headline font, not available on Google Fonts */}
         <link rel='preconnect' href='https://api.fontshare.com' />
         <link
           href='https://api.fontshare.com/v2/css?f[]=sentient@400,500,600,700,800&display=swap'

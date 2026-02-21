@@ -6,7 +6,7 @@ import { Button } from "../../../../../components/ui/Button";
 export function GartnerReport() {
   const translation = useTranslations("gartnerReport");
   const locale = useLocale();
-  const isBR = locale === "pt-br";
+  const isBR = locale === "pt";
 
   const checkItems = translation.raw("checkItems") as string[];
 
@@ -22,7 +22,7 @@ export function GartnerReport() {
               {translation("title")}
             </h2>
             <p className='text-xl font-normal text-segura-white'>
-              <span className='font-display text-2xl text-segura-white'>
+              <span className={`font-display text-2xl ${isBR ? 'text-segura-white' : 'text-go-green'}`}>
                 <em>{translation("subtitle")}</em>
               </span>
               <br /><br />

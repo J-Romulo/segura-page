@@ -10,8 +10,7 @@ export function FAQ() {
 
   return (
     <section
-      className='bg-deep-green text-segura-white py-16'
-      style={{ fontFamily: "Inter, Arial, sans-serif" }}>
+      className='bg-deep-green text-segura-white py-16'>
       <div className='container mx-auto flex flex-col gap-8 w-full max-md:max-w-full justify-center px-12'>
         <div className='flex flex-col gap-10 w-full justify-center items-center'>
           <div className='flex flex-col gap-3 w-full items-center mb-8'>
@@ -20,7 +19,7 @@ export function FAQ() {
             </h2>
           </div>
 
-          <div className='flex flex-col flex-1 w-full gap-8'>
+          <div className='flex flex-col flex-1 w-full gap-8 font-sans'>
             {FAQS.map((faq, index) => (
               <Accordion
                 key={index}

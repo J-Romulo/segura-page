@@ -65,7 +65,7 @@ export function FooterLinks() {
             <h3 className='font-semibold text-deep-green font-display'>
               {translation("stayConnected.title")}
             </h3>
-            <p className='font-normal text-deep-green' style={{ fontFamily: "Inter, Arial, sans-serif" }}>
+            <p className='font-normal text-deep-green'>
               {translation("stayConnected.description")}
             </p>
             <Link
@@ -76,8 +76,7 @@ export function FooterLinks() {
           </div>
         </div>
 
-        {/* Link columns */}
-        <div className='flex flex-col md:flex-row md:w-full justify-around gap-4 md:gap-0'>
+        <div className='flex flex-col md:flex-row md:w-full justify-around gap-4 md:gap-0 font-sans'>
           {FOOTER_LINKS.map(({ title, items }) => (
             <div key={title} className='flex flex-col gap-4 px-2'>
               <h3 className='font-semibold text-deep-green border-b-2 border-deep-green font-display pb-2'>
@@ -88,7 +87,7 @@ export function FooterLinks() {
                   <li
                     key={label}
                     className='font-normal text-deep-green py-3 px-4 hover:bg-mint-green/10 hover:rounded-lg hover:text-mid-green transition-colors cursor-pointer'
-                    style={{ fontFamily: "Inter, Arial, sans-serif" }}>
+                  >
                     <Link
                       href={href}
                       target={external ? "_blank" : undefined}
@@ -109,7 +108,7 @@ export function FooterLinks() {
               <ul className='flex flex-col gap-1'>
                 <li
                   className='font-normal text-deep-green py-2 px-4 hover:bg-go-green/10 hover:rounded-lg hover:text-mid-green transition-colors cursor-pointer'
-                  style={{ fontFamily: "Inter, Arial, sans-serif" }}>
+                >
                   <Link href='/pt-br/sobre'>
                     {translation("brCenter.address")}
                     <br /><br />
@@ -126,7 +125,7 @@ export function FooterLinks() {
               <ul className='flex flex-col gap-1'>
                 <li
                   className='font-normal text-deep-green py-2 px-4 hover:bg-go-green/10 hover:rounded-lg hover:text-mid-green transition-colors cursor-pointer'
-                  style={{ fontFamily: "Inter, Arial, sans-serif" }}>
+                >
                   <Link href='/about'>
                     <b>{translation("usCenter.name")}</b>
                     <br /><br />

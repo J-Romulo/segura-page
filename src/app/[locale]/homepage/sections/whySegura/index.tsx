@@ -10,8 +10,7 @@ export function WhySegura() {
 
   return (
     <section
-      className='bg-deep-green text-segura-white py-16'
-      style={{ fontFamily: "Inter, Arial, sans-serif" }}>
+      className='bg-deep-green text-segura-white py-16'>
       <div className='container mx-auto flex flex-col gap-8 w-full max-md:max-w-full px-12 justify-center'>
         <div className='flex flex-col gap-3 items-center'>
           <h2 className='font-display text-4xl font-semibold'>{translation("title")}</h2>
@@ -28,7 +27,7 @@ export function WhySegura() {
             />
           </div>
 
-          <div className='flex flex-col flex-1 w-full gap-8'>
+          <div className='flex flex-col flex-1 w-full gap-8 font-sans'>
             {items.map((item, index) => (
               <Accordion key={index} title={item.question}>
                 <p className='text-base font-light'>{item.answer}</p>

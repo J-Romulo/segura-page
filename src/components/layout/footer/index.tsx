@@ -39,7 +39,7 @@ export default function Footer() {
   return (
     <>
       <FooterLinks />
-      <footer className="bg-password-green" style={{ fontFamily: "Inter, Arial, sans-serif", fontSize: "14px" }}>
+      <footer className="bg-password-green font-sans text-[14px]">
         <div className="py-8 px-37 flex flex-col md:flex-row gap-10 w-full justify-between">
 
           <div className="flex flex-col gap-3">

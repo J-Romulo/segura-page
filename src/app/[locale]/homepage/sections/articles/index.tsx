@@ -66,15 +66,14 @@ export function Articles() {
   
   return (
     <section
-      className='py-15 bg-segura-white text-deep-green'
-      style={{ fontFamily: "Inter, Arial, sans-serif" }}>
+      className='py-15 bg-segura-white text-deep-green'>
       <div className='flex flex-col items-center gap-8 w-full max-md:max-w-full mx-auto container px-12'>
         {/* Header */}
         <div className='flex flex-col text-center gap-2'>
           <h2 className='font-display text-4xl font-semibold text-deep-green'>
             {translation("title")}
           </h2>
-          <p className='text-lg font-normal text-deep-green'>
+          <p className='text-lg text-deep-green'>
             {translation("description")}
           </p>
         </div>

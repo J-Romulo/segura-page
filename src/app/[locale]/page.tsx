@@ -6,10 +6,10 @@ import { Homepage } from "./homepage";
 // NO FAQ section in portuguese
 // "e nós somos certeza" badges section
 // "All-In_One " overview
+// Description of gartner report different depending on language
 
 // report icons
 // Line height
-// Organise in a homepage folder
 // Fix icons, create components for them or use from lucide
 // Tab title
 // Translations

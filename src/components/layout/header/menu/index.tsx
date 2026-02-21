@@ -7,8 +7,7 @@ export function Menu() {
   return (
     <section className="w-full py-3 bg-segura-white">
       <div className="w-full">
-        <ul className="px-40 w-full flex justify-around lg:justify-end items-center gap-1 lg:gap-4 text-sm text-deep-green"
-            style={{ fontFamily: "Inter, Arial, sans-serif", fontSize: "14px" }}>
+        <ul className="px-40 w-full flex justify-around lg:justify-end items-center gap-1 lg:gap-4 text-sm text-deep-green font-sans">
           <li>
             <Link href="/partners/become-a-partner">
               <b>{translation("becomePartner")}</b>

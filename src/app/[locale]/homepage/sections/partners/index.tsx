@@ -33,8 +33,7 @@ export function Partners() {
 
   return (
     <section
-      className='bg-segura-white py-16'
-      style={{ fontFamily: "Inter, Arial, sans-serif" }}>
+      className='bg-segura-white py-16'>
       <div className='container mx-auto flex flex-col gap-10 items-center w-full max-md:max-w-full px-12'>
         <div className='text-center text-deep-green'>
           <h2 className='font-display font-semibold text-2xl'>

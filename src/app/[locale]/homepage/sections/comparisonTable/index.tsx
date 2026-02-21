@@ -9,14 +9,13 @@ export function ComparisonTable() {
 
   return (
     <section
-      className='bg-segura-white py-16'
-      style={{ fontFamily: "Inter, Arial, sans-serif" }}>
+      className='bg-segura-white py-16'>
       <div className='container mx-auto flex flex-col w-full max-md:max-w-full text-center justify-center items-center gap-10 px-12'>
         <div className='flex flex-col gap-4 md:w-2/3'>
-          <h2 className='font-display text-4xl font-semibold text-deep-green'>
+          <h2 className='text-4xl font-semibold text-deep-green'>
             {translation("title")}
           </h2>
-          <p className='text-lg font-normal leading-7 text-deep-green'>
+          <p className='text-lg font-sans leading-7 text-deep-green'>
             {translation.rich("description", {
               b: (chunks) => <b>{chunks}</b>,
               br: () => <><br /></>,

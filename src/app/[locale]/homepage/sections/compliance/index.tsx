@@ -32,7 +32,7 @@ export function Compliance() {
             <h2 className='font-display text-4xl font-semibold text-segura-white'>
               {translation("title")}
             </h2>
-            <p className='text-xl font-normal text-segura-white'>
+            <p className='text-xl text-segura-white'>
               {translation.rich("description", {
                 b: (chunks) => <b>{chunks}</b>,
               })}

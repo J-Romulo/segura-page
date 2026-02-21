@@ -10,9 +10,7 @@ const COMPETITORS = [
 export function Competitors() {
   return (
     <section
-      className="bg-mint-green pb-16"
-      style={{ fontFamily: "Inter, Arial, sans-serif" }}
-    >
+      className="bg-mint-green pb-16">
       <div className="container mx-auto flex flex-wrap gap-4 md:flex-row justify-between w-full max-md:max-w-full px-12">
         {COMPETITORS.map(({ label, href }) => (
           <div key={label} className="border-l-2 border-deep-green font-normal text-deep-green">

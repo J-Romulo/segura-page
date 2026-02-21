@@ -21,7 +21,7 @@ const VARIANTS: Record<ButtonVariant, string> = {
   "transparent-dark": "bg-transparent text-deep-green border-2 border-deep-green hover:bg-deep-green hover:text-segura-white",
 };
 
-const BASE = "font-display px-5 py-2.5 font-semibold rounded-lg transition-colors whitespace-nowrap w-fit";
+const BASE = "font-display px-4 py-2.5 font-semibold rounded-[10px] transition-colors whitespace-nowrap w-fit";
 
 export function Button({
   href,

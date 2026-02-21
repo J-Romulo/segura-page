@@ -8,8 +8,7 @@ export function PeerInsights() {
 
   return (
     <section
-      className='bg-mint-green py-16'
-      style={{ fontFamily: "Inter, Arial, sans-serif" }}>
+      className='bg-mint-green py-16'>
       <div className='container mx-auto w-full max-md:max-w-full px-12'>
         <div className='w-full grid grid-cols-1 md:grid-cols-12 md:gap-y-8 gap-x-3 md:gap-x-12 items-start gap-10'>
 

@@ -60,9 +60,7 @@ export function Header() {
             </div>
           </div>
 
-          {/* Nav items */}
           <nav
-            style={{ fontFamily: "Inter, Arial, sans-serif", fontSize: "14px" }}
             className={`
               ${mobileMenuOpen ? "flex" : "hidden"} lg:flex
               flex-col lg:flex-row items-start lg:items-center
@@ -73,6 +71,8 @@ export function Header() {
               z-40 shadow-lg lg:shadow-none
               overflow-auto lg:overflow-visible
               max-h-[80vh] lg:max-h-none
+              font-sans
+              text-[14px]
             `}>
             {NAV_ITEMS.map((key) => (
               <NavItem key={key} label={translation(`nav.${key}`)}>
