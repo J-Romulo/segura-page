@@ -26,7 +26,7 @@ export function NavItem({ label, children }: NavItemProps) {
       </button>
 
       {children && (
-        <div className="bg-white fixed top-[9.1rem] left-0 z-50 hidden w-screen shadow-xl lg:group-hover:block">
+        <div className="fixed top-[9.1rem] left-0 z-50 hidden w-screen bg-white shadow-xl lg:group-hover:block">
           {children}
         </div>
       )}
