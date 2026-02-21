@@ -21,10 +21,10 @@ export function Badges() {
 
   return (
     <section className="bg-segura-white py-16">
-      <div className="container mx-auto w-full px-12 max-md:max-w-full">
+      <div className="container mx-auto w-full px-17 max-md:max-w-full max-w-[1320px]">
         <div className="grid w-full grid-cols-1 items-start gap-10 gap-x-3 md:grid-cols-12 md:gap-x-12 md:gap-y-8">
           <div className="col-span-12 flex flex-col gap-4 md:col-span-6">
-            <h2 className="font-display text-deep-green pb-6 text-4xl font-semibold">
+            <h2 className="font-display text-deep-green pb-6 text-[32px]/9 lg:text-4xl font-semibold">
               {translation('title')}
             </h2>
             <div className="grid grid-cols-2 gap-8 md:grid-cols-3">
@@ -41,7 +41,7 @@ export function Badges() {
           </div>
 
           <div className="border-mint-green text-deep-green col-span-12 flex h-full flex-col justify-center gap-4 border-l-2 md:col-span-6">
-            <p className="pl-5 text-xl">
+            <p className="pl-5 text-xl font-sans">
               <em>
                 {translation.rich('quote', {
                   b: (chunks) => <b>{chunks}</b>,

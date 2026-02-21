@@ -31,8 +31,8 @@ export function Header() {
       <Menu />
 
       <section className="w-full bg-white py-2 shadow-xl">
-        <div className="flex items-center justify-between px-42">
-          <div className="z-50">
+          <div className="flex items-center justify-between px-8 lg:px-21 max-w-[1320px] mx-auto">
+          <div className="z-50 shrink-0">
             <Link href="/">
               <Image
                 src={SeguraLogo}
@@ -53,7 +53,7 @@ export function Header() {
               {mobileMenuOpen ? (
                 <X size={22} strokeWidth={1.5} />
               ) : (
-                <MenuIcon size={22} strokeWidth={1.5} />
+                <MenuIcon size={28} strokeWidth={2}/>
               )}
             </button>
             <div className="z-40">
@@ -62,7 +62,7 @@ export function Header() {
           </div>
 
           <nav
-            className={` ${mobileMenuOpen ? 'flex' : 'hidden'} absolute top-full left-0 z-40 max-h-[80vh] w-full flex-col items-start gap-6 overflow-auto bg-white font-sans text-[14px] shadow-lg lg:static lg:flex lg:max-h-none lg:w-auto lg:flex-row lg:items-center lg:gap-0.5 lg:overflow-visible lg:bg-transparent lg:shadow-none`}
+            className={` ${mobileMenuOpen ? 'flex' : 'hidden'} absolute top-full left-0 z-40 max-h-[80vh] w-full flex-col items-start overflow-auto bg-white font-sans text-[14px] shadow-lg lg:static lg:flex lg:max-h-none lg:w-auto lg:flex-row lg:items-center lg:gap-0.5 lg:overflow-visible lg:bg-transparent lg:shadow-none`}
           >
             {NAV_ITEMS.map((key) => (
               <NavItem key={key} label={translation(`nav.${key}`)}>
@@ -74,7 +74,7 @@ export function Header() {
               </NavItem>
             ))}
 
-            <Button href="/demo" variant="primary">
+            <Button href="/demo" variant="primary" className='mb-[16px] ml-[49px] lg:ml-0 lg:mb-0'>
               {translation('demo')} ›
             </Button>
 

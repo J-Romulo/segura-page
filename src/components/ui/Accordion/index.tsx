@@ -40,7 +40,7 @@ export function Accordion({
       </div>
 
       {open && (
-        <div className="pt-4 pl-6 text-justify" onClick={() => setOpen(false)}>
+        <div className="pt-4 pl-6" onClick={() => setOpen(false)}>
           {children}
         </div>
       )}

@@ -6,7 +6,7 @@ export function Banner() {
 
   return (
     <section className="bg-deep-green text-segura-white min-h-12 py-3 text-center">
-      <div className="container mx-auto flex flex-col items-center justify-center gap-2 px-4 md:flex-row">
+      <div className="container mx-auto flex flex-col items-center justify-center gap-2 px-16 md:flex-row">
         <p className="font-display text-base! font-semibold sm:text-sm">
           {translation('message')}{' '}
           <Link href={translation('link')}>{translation('cta')} ›</Link>

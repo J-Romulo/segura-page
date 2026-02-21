@@ -79,8 +79,8 @@ export default function Footer() {
   return (
     <>
       <FooterLinks />
-      <footer className="bg-password-green font-sans text-[14px]">
-        <div className="flex w-full flex-col justify-between gap-10 px-37 py-8 md:flex-row">
+      <footer className="bg-password-green font-sans text-[14px] flex justify-center">
+        <div className="flex w-full flex-col justify-between gap-10 px-12 lg:px-17 py-8 md:flex-row max-w-[1320px]">
           <div className="flex flex-col gap-3">
             <p className="text-deep-green font-light">{translation('askAI')}</p>
             <div className="flex gap-5">

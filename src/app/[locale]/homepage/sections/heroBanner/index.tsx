@@ -22,15 +22,15 @@ export function HeroBanner() {
         />
       </div>
 
-      <div className="relative z-10 container mx-auto flex flex-col justify-between gap-10 px-17 lg:flex-row lg:gap-0">
-        <div className="flex w-full flex-col gap-4 lg:w-[48%] lg:gap-8">
-          <h1 className="text-segura-white text-5xl/13 font-semibold">
+      <div className="relative z-10 container mx-auto flex flex-col justify-between gap-10 px-21 lg:flex-row lg:gap-0 max-w-[1320px]">
+        <div className="flex w-full flex-col gap-4 lg:w-[48%] lg:gap-6">
+          <h1 className="text-segura-white text-4xl/13 font-semibold lg:text-5xl/13">
             {translation.rich('title', {
               normal: (chunks) => <span className="font-normal">{chunks}</span>,
               em: (chunks) => <em>{chunks}</em>,
             })}
           </h1>
-          <p className="text-segura-white font-sans text-lg lg:w-[92%]">
+          <p className="text-segura-white font-sans text-base lg:text-lg lg:w-[92%]">
             {translation.rich('description', {
               highlight: (chunks) => (
                 <span className="text-go-green font-semibold">{chunks}</span>
@@ -41,7 +41,7 @@ export function HeroBanner() {
             <Image
               src={RiverwoodLogo}
               alt={translation('riverwoodAlt')}
-              className="w-48"
+              className="w-25 lg:w-48"
             />
           </div>
           <div className="mt-2 flex flex-col gap-4 md:flex-row">
@@ -58,7 +58,7 @@ export function HeroBanner() {
           {stats.map((stat) => (
             <p
               key={stat}
-              className="border-go-green border-l-2 pl-5 text-lg font-normal"
+              className="border-go-green border-l-2 pl-5 text-base font-normal lg:text-lg"
             >
               {stat}
             </p>

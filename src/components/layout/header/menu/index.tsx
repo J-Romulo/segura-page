@@ -6,8 +6,8 @@ export function Menu() {
 
   return (
     <section className="bg-segura-white w-full py-3">
-      <div className="w-full">
-        <ul className="text-deep-green flex w-full items-center justify-around gap-1 px-40 font-sans text-sm lg:justify-end lg:gap-4">
+      <div className="w-full flex justify-center">
+        <ul className="text-deep-green flex w-full items-center justify-between gap-4 px-20 font-sans text-sm lg:justify-end max-w-[1320px]">
           <li>
             <Link href="/partners/become-a-partner">
               <b>{translation('becomePartner')}</b>

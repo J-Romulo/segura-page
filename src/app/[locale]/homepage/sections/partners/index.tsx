@@ -33,9 +33,9 @@ export function Partners() {
 
   return (
     <section className="bg-segura-white py-16">
-      <div className="container mx-auto flex w-full flex-col items-center gap-10 px-12 max-md:max-w-full">
+      <div className="container mx-auto flex w-full flex-col items-center gap-10 px-17 max-md:max-w-full max-w-[1320px]">
         <div className="text-deep-green text-center">
-          <h2 className="font-display text-2xl font-semibold">
+          <h2 className="font-display text-[20px] lg:text-2xl font-semibold">
             {translation('title')}
           </h2>
         </div>

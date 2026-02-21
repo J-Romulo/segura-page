@@ -65,13 +65,12 @@ export function Articles() {
 
   return (
     <section className="bg-segura-white text-deep-green py-15">
-      <div className="container mx-auto flex w-full flex-col items-center gap-8 px-12 max-md:max-w-full">
-        {/* Header */}
+      <div className="container mx-auto flex w-full flex-col items-center gap-8 px-17 max-md:max-w-full max-w-[1320px]">
         <div className="flex flex-col gap-2 text-center">
-          <h2 className="font-display text-deep-green text-4xl font-semibold">
+          <h2 className="font-display text-deep-green text-[32px]/9 lg:text-4xl font-semibold">
             {translation('title')}
           </h2>
-          <p className="text-deep-green text-lg">
+          <p className="text-deep-green text-[16px] lg:text-lg">
             {translation('description')}
           </p>
         </div>

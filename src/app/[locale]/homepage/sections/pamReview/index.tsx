@@ -8,7 +8,7 @@ export function PamReview() {
 
   return (
     <section className="bg-segura-white py-16">
-      <div className="container mx-auto flex w-full flex-col items-center gap-8 px-12 max-md:max-w-full lg:flex-row">
+      <div className="container mx-auto flex w-full flex-col items-center gap-8 px-17 max-md:max-w-full lg:flex-row max-w-[1320px]">
         <div className="w-full flex-1">
           <Image
             src={PamReviewTable}
@@ -18,10 +18,10 @@ export function PamReview() {
         </div>
 
         <div className="flex w-full flex-1 flex-col gap-6">
-          <h2 className="font-display text-deep-green text-4xl font-semibold">
+          <h2 className="font-display text-deep-green text-[32px]/9 lg:text-4xl font-semibold">
             {translation('title')}
           </h2>
-          <p className="text-deep-green font-sans text-lg">
+          <p className="text-deep-green font-sans text-[16px] lg:text-lg">
             {translation.rich('description', {
               b: (chunks) => <b>{chunks}</b>,
               br: () => (

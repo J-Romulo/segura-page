@@ -12,7 +12,7 @@ export function NavItem({ label, children }: NavItemProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <div className="group relative my-2 lg:my-0">
+    <div className="group relative my-2 w-full lg:my-0 lg:w-auto">
       <button
         className="text-deep-green hover:bg-mint-green/10 z-40 flex w-full items-center justify-between gap-1 px-[14%] py-2 font-normal hover:rounded-lg lg:justify-center lg:p-3"
         onClick={() => setMobileOpen((o) => !o)}

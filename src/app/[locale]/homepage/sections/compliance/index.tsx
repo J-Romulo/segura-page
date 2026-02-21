@@ -28,10 +28,10 @@ export function Compliance() {
       className="bg-deep-green py-16"
       style={{ fontFamily: 'Inter, Arial, sans-serif' }}
     >
-      <div className="container mx-auto w-full px-12 max-md:max-w-full">
+      <div className="container mx-auto w-full px-17 max-md:max-w-full max-w-[1320px]">
         <div className="grid w-full grid-cols-1 items-start gap-10 gap-x-3 md:grid-cols-12 md:gap-x-12 md:gap-y-8">
           <div className="text-segura-white col-span-12 flex h-full flex-col justify-center gap-4 md:col-span-6">
-            <h2 className="font-display text-segura-white text-4xl font-semibold">
+            <h2 className="font-display text-segura-white text-[32px] lg:text-4xl font-semibold">
               {translation('title')}
             </h2>
             <p className="text-segura-white text-xl">
@@ -49,7 +49,7 @@ export function Compliance() {
             </div>
           </div>
 
-          <div className="col-span-12 md:col-span-6">
+          <div className="col-span-12 md:col-span-6 order-first md:order-none">
             <div className="flex justify-start md:justify-center">
               <Image
                 src={ComplianceBanner}

@@ -7,6 +7,7 @@ import { Homepage } from './homepage';
 // "e nós somos certeza" badges section
 // "All-In_One " overview
 // Description of gartner report different depending on language
+// In some mobile devices the dropdown in the nav menu cuts the title
 
 // Fix icons, create components for them or use from lucide
 // Responsividade

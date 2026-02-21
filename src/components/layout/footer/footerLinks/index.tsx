@@ -115,7 +115,7 @@ export function FooterLinks() {
   ];
 
   return (
-    <div className="bg-segura-white flex w-full flex-col gap-10 px-37 py-8 text-base">
+    <div className="bg-segura-white flex w-full flex-col gap-10 px-12 lg:px-17 py-8 text-base max-w-[1320px] mx-auto">
       <div className="flex flex-col justify-between gap-8 lg:flex-row">
         <div className="border-deep-green text-deep-green flex h-3/4 items-center justify-center rounded-xl border-2 lg:w-1/4">
           <div className="flex w-full flex-col justify-center gap-4 p-10">
@@ -206,7 +206,6 @@ export function FooterLinks() {
         </div>
       </div>
 
-      {/* Logo */}
       <Image
         src={SeguraIdentity}
         alt="Segura logo"
