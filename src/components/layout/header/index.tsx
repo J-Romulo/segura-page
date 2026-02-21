@@ -62,7 +62,7 @@ export function Header() {
               const Dropdown = DROPDOWNS[key];
               return (
                 <NavItem key={key} label={translation(`nav.${key}`)}>
-                    <Dropdown />
+                  <Dropdown />
                 </NavItem>
               );
             })}

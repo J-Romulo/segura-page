@@ -17,12 +17,30 @@ export function CompanyDropdown() {
     {
       title: translation('whySegura.title'),
       items: [
-        { href: '/company/why-senhasegura', label: translation('whySegura.advantage') },
-        { href: '/company/pam-pricing', label: translation('whySegura.pricing') },
-        { href: '/company/trust-center', label: translation('whySegura.trust') },
-        { href: '/company/achievements', label: translation('whySegura.awards') },
-        { href: '/company/global-presence-me', label: translation('whySegura.mea') },
-        { href: '/company/jiu-jitciso', label: translation('whySegura.jiujitciso') },
+        {
+          href: '/company/why-senhasegura',
+          label: translation('whySegura.advantage'),
+        },
+        {
+          href: '/company/pam-pricing',
+          label: translation('whySegura.pricing'),
+        },
+        {
+          href: '/company/trust-center',
+          label: translation('whySegura.trust'),
+        },
+        {
+          href: '/company/achievements',
+          label: translation('whySegura.awards'),
+        },
+        {
+          href: '/company/global-presence-me',
+          label: translation('whySegura.mea'),
+        },
+        {
+          href: '/company/jiu-jitciso',
+          label: translation('whySegura.jiujitciso'),
+        },
       ],
     },
     {
@@ -50,13 +68,20 @@ export function CompanyDropdown() {
     <div className="mx-auto max-w-[1320px] px-20 py-4 lg:py-12">
       <div className="flex flex-col items-start justify-between gap-6 lg:flex-row">
         {columns.map((col) => (
-          <div key={col.title} className="flex flex-1 flex-col items-start justify-start gap-5">
-            <p className="font-display text-deep-green border-b-segura-white w-full border-b-2 pb-2 mb-1 font-medium">
+          <div
+            key={col.title}
+            className="flex flex-1 flex-col items-start justify-start gap-5"
+          >
+            <p className="font-display text-deep-green border-b-segura-white mb-1 w-full border-b-2 pb-2 font-medium">
               {col.title}
             </p>
             <ul className="flex w-full flex-1 flex-col items-start justify-start gap-2">
               {col.items.map((item) => (
-                <Link key={item.href + item.label} href={item.href} className="w-full">
+                <Link
+                  key={item.href + item.label}
+                  href={item.href}
+                  className="w-full"
+                >
                   <li className="text-deep-green hover:bg-mint-green/10 hover:text-mid-green flex w-full justify-between px-3 py-1 font-normal hover:cursor-pointer hover:rounded-lg">
                     {item.label}
                   </li>

@@ -27,16 +27,40 @@
     "dropdowns": {
       "platform": {
         "col1": {
-          "item1": { "title": "Secure Privileged Access", "desc": "Discover, manage, protect, and audit privileged accounts and sessions." },
-          "item2": { "title": "Endpoint Privilege Management", "desc": "Just-in-time and on-demand endpoint privilege management and elevation." },
-          "item3": { "title": "Multi-Cloud Identity Security", "desc": "Secure access to cloud consoles and services across multi-cloud environments." },
-          "item4": { "title": "DevOps Secrets Management", "desc": "Secrets management for applications, databases, CI/CD tools, and services." }
+          "item1": {
+            "title": "Secure Privileged Access",
+            "desc": "Discover, manage, protect, and audit privileged accounts and sessions."
+          },
+          "item2": {
+            "title": "Endpoint Privilege Management",
+            "desc": "Just-in-time and on-demand endpoint privilege management and elevation."
+          },
+          "item3": {
+            "title": "Multi-Cloud Identity Security",
+            "desc": "Secure access to cloud consoles and services across multi-cloud environments."
+          },
+          "item4": {
+            "title": "DevOps Secrets Management",
+            "desc": "Secrets management for applications, databases, CI/CD tools, and services."
+          }
         },
         "col2": {
-          "item1": { "title": "Certificate Management", "desc": "Full lifecycle certificate management, automation, and publishing." },
-          "item2": { "title": "Privileged Remote Access", "desc": "VPN-less granular remote access for your employees, vendors, and third parties." },
-          "item3": { "title": "Personal Password Manager", "desc": "Securely store all of your personal passwords and sensitive data." },
-          "item4": { "title": "Privileged Infrastructure", "desc": "Appliance-based scalable high-availability infrastructure for heightened security." }
+          "item1": {
+            "title": "Certificate Management",
+            "desc": "Full lifecycle certificate management, automation, and publishing."
+          },
+          "item2": {
+            "title": "Privileged Remote Access",
+            "desc": "VPN-less granular remote access for your employees, vendors, and third parties."
+          },
+          "item3": {
+            "title": "Personal Password Manager",
+            "desc": "Securely store all of your personal passwords and sensitive data."
+          },
+          "item4": {
+            "title": "Privileged Infrastructure",
+            "desc": "Appliance-based scalable high-availability infrastructure for heightened security."
+          }
         },
         "cta": {
           "title": "360º Privilege Platform",

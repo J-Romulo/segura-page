@@ -9,28 +9,61 @@ export function SolutionsDropdown() {
       title: t('byUseCase.title'),
       items: [
         { href: '/solutions/audit', label: t('byUseCase.audit') },
-        { href: '/solutions/data-theft-prevention', label: t('byUseCase.dataTheft') },
+        {
+          href: '/solutions/data-theft-prevention',
+          label: t('byUseCase.dataTheft'),
+        },
         { href: '/solutions/devops', label: t('byUseCase.devops') },
-        { href: '/solutions/insider-threat', label: t('byUseCase.insiderThreat') },
-        { href: '/solutions/third-party-access', label: t('byUseCase.thirdParty') },
-        { href: '/solutions/privileged-access-recording', label: t('byUseCase.recording') },
-        { href: '/solutions/privilege-abuse', label: t('byUseCase.privilegeAbuse') },
-        { href: '/solutions/hardcoded-password', label: t('byUseCase.hardcoded') },
+        {
+          href: '/solutions/insider-threat',
+          label: t('byUseCase.insiderThreat'),
+        },
+        {
+          href: '/solutions/third-party-access',
+          label: t('byUseCase.thirdParty'),
+        },
+        {
+          href: '/solutions/privileged-access-recording',
+          label: t('byUseCase.recording'),
+        },
+        {
+          href: '/solutions/privilege-abuse',
+          label: t('byUseCase.privilegeAbuse'),
+        },
+        {
+          href: '/solutions/hardcoded-password',
+          label: t('byUseCase.hardcoded'),
+        },
       ],
     },
     {
       title: '',
       items: [
-        { href: '/solutions/password-reset', label: t('byUseCase2.passwordReset') },
-        { href: '/solutions/pam-for-cyber-insurance', label: t('byUseCase2.cyberInsurance') },
-        { href: '/solutions/machine-identity', label: t('byUseCase2.machineIdentity') },
-        { href: '/solutions/identity-threat-detection-response-itdr', label: t('byUseCase2.itdr') },
+        {
+          href: '/solutions/password-reset',
+          label: t('byUseCase2.passwordReset'),
+        },
+        {
+          href: '/solutions/pam-for-cyber-insurance',
+          label: t('byUseCase2.cyberInsurance'),
+        },
+        {
+          href: '/solutions/machine-identity',
+          label: t('byUseCase2.machineIdentity'),
+        },
+        {
+          href: '/solutions/identity-threat-detection-response-itdr',
+          label: t('byUseCase2.itdr'),
+        },
       ],
     },
     {
       title: t('byIndustry.title'),
       items: [
-        { href: '/solutions/energy-and-utilities', label: t('byIndustry.energy') },
+        {
+          href: '/solutions/energy-and-utilities',
+          label: t('byIndustry.energy'),
+        },
         { href: '/solutions/financial', label: t('byIndustry.financial') },
         { href: '/solutions/government', label: t('byIndustry.government') },
         { href: '/solutions/health-care', label: t('byIndustry.healthcare') },
@@ -59,9 +92,12 @@ export function SolutionsDropdown() {
     <div className="mx-auto max-w-[1320px] px-20 py-4 lg:py-8">
       <div className="flex flex-col items-start justify-between gap-6 lg:flex-row">
         {columns.map((col, i) => (
-          <div key={i} className="flex flex-1 flex-col items-start justify-start gap-5">
+          <div
+            key={i}
+            className="flex flex-1 flex-col items-start justify-start gap-5"
+          >
             <ul className="flex w-full flex-1 flex-col items-start justify-start gap-2">
-              <p className="font-display text-deep-green border-b-segura-white w-full border-b-2 pb-2 mb-1 font-medium">
+              <p className="font-display text-deep-green border-b-segura-white mb-1 w-full border-b-2 pb-2 font-medium">
                 {col.title || <>&nbsp;</>}
               </p>
               {col.items.map((item) => (

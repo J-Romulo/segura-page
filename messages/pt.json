@@ -27,16 +27,40 @@
     "dropdowns": {
       "platform": {
         "col1": {
-          "item1": { "title": "Acesso Privilegiado Seguro", "desc": "Descubra, gerencie, proteja e audite contas e sessões privilegiadas." },
-          "item2": { "title": "Proteção de Endpoint & Dispositivos", "desc": "Acesso Just In Time, gestão e elevação de privilégios sob demanda." },
-          "item3": { "title": "Segurança de Identidades Multi-Cloud", "desc": "Acesso seguro em consoles e serviços de múltiplos ambientes em nuvem." },
-          "item4": { "title": "Gerenciamento de Segredos de DevOps", "desc": "Gestão de secrets para aplicações, bancos de dados, ferramentas CI/CD e serviços." }
+          "item1": {
+            "title": "Acesso Privilegiado Seguro",
+            "desc": "Descubra, gerencie, proteja e audite contas e sessões privilegiadas."
+          },
+          "item2": {
+            "title": "Proteção de Endpoint & Dispositivos",
+            "desc": "Acesso Just In Time, gestão e elevação de privilégios sob demanda."
+          },
+          "item3": {
+            "title": "Segurança de Identidades Multi-Cloud",
+            "desc": "Acesso seguro em consoles e serviços de múltiplos ambientes em nuvem."
+          },
+          "item4": {
+            "title": "Gerenciamento de Segredos de DevOps",
+            "desc": "Gestão de secrets para aplicações, bancos de dados, ferramentas CI/CD e serviços."
+          }
         },
         "col2": {
-          "item1": { "title": "Gestão de Certificados", "desc": "Gestão de ciclo de vida completo de certificados, com automação e publicação." },
-          "item2": { "title": "Trabalho Remoto Seguro", "desc": "Acesso remoto sem VPN e com nível de acesso detalhado para colaboradores, fornecedores e terceiros." },
-          "item3": { "title": "Gerenciador de Senhas Pessoais", "desc": "Armazene com segurança suas senhas pessoais e dados sensíveis." },
-          "item4": { "title": "Infraestrutura Privilegiada", "desc": "Infraestrutura ativa, segura, de alta disponibilidade e escalável." }
+          "item1": {
+            "title": "Gestão de Certificados",
+            "desc": "Gestão de ciclo de vida completo de certificados, com automação e publicação."
+          },
+          "item2": {
+            "title": "Trabalho Remoto Seguro",
+            "desc": "Acesso remoto sem VPN e com nível de acesso detalhado para colaboradores, fornecedores e terceiros."
+          },
+          "item3": {
+            "title": "Gerenciador de Senhas Pessoais",
+            "desc": "Armazene com segurança suas senhas pessoais e dados sensíveis."
+          },
+          "item4": {
+            "title": "Infraestrutura Privilegiada",
+            "desc": "Infraestrutura ativa, segura, de alta disponibilidade e escalável."
+          }
         },
         "cta": {
           "title": "Plataforma 360°",
