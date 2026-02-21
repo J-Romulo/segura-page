@@ -23,7 +23,6 @@ export function FAQ() {
               <Accordion
                 key={index}
                 title={faq.question}
-                defaultOpen={index === 0}
               >
                 {faq.answer}
               </Accordion>
