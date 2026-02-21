@@ -23,7 +23,162 @@
       "company": "Empresa",
       "resources": "Recursos"
     },
-    "demo": "Pedir Demo"
+    "demo": "Pedir Demo",
+    "dropdowns": {
+      "platform": {
+        "col1": {
+          "item1": { "title": "Acesso Privilegiado Seguro", "desc": "Descubra, gerencie, proteja e audite contas e sessões privilegiadas." },
+          "item2": { "title": "Proteção de Endpoint & Dispositivos", "desc": "Acesso Just In Time, gestão e elevação de privilégios sob demanda." },
+          "item3": { "title": "Segurança de Identidades Multi-Cloud", "desc": "Acesso seguro em consoles e serviços de múltiplos ambientes em nuvem." },
+          "item4": { "title": "Gerenciamento de Segredos de DevOps", "desc": "Gestão de secrets para aplicações, bancos de dados, ferramentas CI/CD e serviços." }
+        },
+        "col2": {
+          "item1": { "title": "Gestão de Certificados", "desc": "Gestão de ciclo de vida completo de certificados, com automação e publicação." },
+          "item2": { "title": "Trabalho Remoto Seguro", "desc": "Acesso remoto sem VPN e com nível de acesso detalhado para colaboradores, fornecedores e terceiros." },
+          "item3": { "title": "Gerenciador de Senhas Pessoais", "desc": "Armazene com segurança suas senhas pessoais e dados sensíveis." },
+          "item4": { "title": "Infraestrutura Privilegiada", "desc": "Infraestrutura ativa, segura, de alta disponibilidade e escalável." }
+        },
+        "cta": {
+          "title": "Plataforma 360°",
+          "desc": "Uma plataforma completa que garante as melhores práticas de Privilégio Mínimo e melhora a postura de segurança em toda a sua organização com o menor custo de propriedade total e implementação mais rápida do mercado.",
+          "button": "Explore Nossos Produtos ›"
+        }
+      },
+      "solutions": {
+        "byUseCase": {
+          "title": "Por Caso de Uso",
+          "audit": "Auditoria e Conformidade",
+          "dataTheft": "Prevenção de Roubo de Dados",
+          "devops": "DevOps",
+          "insiderThreat": "Eliminação de Ameaças Internas",
+          "thirdParty": "Acesso de Terceiros e Remoto",
+          "recording": "Gravação de Acesso Privilegiado",
+          "privilegeAbuse": "Abuso de Privilégios",
+          "hardcoded": "Senhas Codificadas"
+        },
+        "byUseCase2": {
+          "passwordReset": "Redefinição de Senha",
+          "cyberInsurance": "Seguro Cibernético",
+          "machineIdentity": "Identidade de Máquina",
+          "itdr": "Detecção e Resposta a Ameaças de Identidade"
+        },
+        "byIndustry": {
+          "title": "Por Setor",
+          "energy": "Energia e Utilidades",
+          "financial": "Financeiro",
+          "government": "Governo",
+          "healthcare": "Saúde",
+          "legal": "Jurídico",
+          "telecoms": "Telecomunicações",
+          "retail": "Varejo"
+        },
+        "byCertification": {
+          "title": "Por Certificação"
+        }
+      },
+      "services": {
+        "deployment": {
+          "title": "Implantação e Consultoria",
+          "desc": "Nós e nossos parceiros oferecemos serviços profissionais para implantação de nossas soluções, incluindo configuração inicial, personalização e consultoria.",
+          "cta": "Explorar Implantação"
+        },
+        "solutionCenter": {
+          "title": "Central de Soluções",
+          "desc": "Oferecemos suporte premiado a todos os nossos clientes. Saiba mais sobre nossos serviços de suporte e recursos e como entrar em contato aqui.",
+          "cta": "Explorar a Central de Soluções"
+        },
+        "training": {
+          "title": "Treinamento",
+          "desc": "Acesse guias, documentação e vídeos para entender melhor nossos produtos e serviços em nosso portal de e-learning.",
+          "cta": "Explorar Treinamentos & Certificações"
+        }
+      },
+      "partners": {
+        "affinity": {
+          "title": "Programa de Parceiros Affinity",
+          "about": "Sobre o Programa",
+          "become": "Torne-se um Parceiro",
+          "azure": "Segura® no Azure",
+          "linkedin": "Grupo de Parceiros no LinkedIn"
+        },
+        "seePartners": {
+          "title": "Conheça nossos Parceiros",
+          "desc": "Trabalhamos com parceiros em todo o mundo para entregar nossa solução líder à sua organização.",
+          "cta": "Encontrar um parceiro ›"
+        }
+      },
+      "company": {
+        "aboutUs": {
+          "title": "Sobre Nós",
+          "meet": "Conheça a Segura®",
+          "careers": "Carreiras",
+          "contact": "Fale Conosco",
+          "build": "Construa Conosco"
+        },
+        "whySegura": {
+          "title": "Por que a Segura®",
+          "advantage": "A vantagem Segura®",
+          "pricing": "Preços",
+          "trust": "Central de Confiança",
+          "awards": "Prêmios & Cobertura de Analistas",
+          "mea": "Segura® no MEA",
+          "jiujitciso": "Segura@ JiuJitCISO"
+        },
+        "news": {
+          "title": "Notícias",
+          "inTheNews": "Segura® na Mídia",
+          "pressRoom": "Sala de Imprensa"
+        },
+        "coe": {
+          "title": "Centros de Excelência",
+          "saoPaulo": "Sede São Paulo",
+          "riyadh": "CoE Riyadh",
+          "austin": "CoE Austin",
+          "katowice": "CoE Katowice",
+          "kualaLumpur": "CoE Kuala Lumpur - EM BREVE!",
+          "singapore": "CoE Singapura - EM BREVE!",
+          "manila": "CoE Manila - EM BREVE!"
+        }
+      },
+      "resources": {
+        "productInfo": {
+          "title": "Informações do Produto",
+          "datasheets": "Datasheets",
+          "architecture": "Arquitetura",
+          "integrations": "Integrações",
+          "security": "Segurança",
+          "documentation": "Documentação",
+          "customerCases": "Casos de Clientes"
+        },
+        "cybersecurity": {
+          "title": "Informações de Cibersegurança",
+          "blog": "Blog",
+          "pamaturity": "PAMaturity",
+          "pam101": "Gestão de Acesso Privilegiado 101",
+          "attackSurface": "Guia de Gerenciamento de Superfície de Ataque",
+          "cloudSecurity": "Segurança em Nuvem: 5 Preocupações",
+          "gartnerMetrics": "16 Métricas do Gartner para Proteção Cibernética",
+          "pamCosts": "Custos de Implementação de PAM",
+          "identitySecurity": "Inteligência em Segurança de Identidade"
+        },
+        "reports": {
+          "title": "Relatórios",
+          "gartner2025": "Relatório Gartner Magic Quadrant 2025",
+          "softwareReviews": "Relatório SoftwareReviews Data Quadrant PAM 2024",
+          "kuppingerCole": "Relatório KuppingerCole 2023 Leadership Compass para Acesso Privilegiado",
+          "gartner2021": "Relatório Gartner Magic Quadrant para PAM 2021",
+          "frostSullivan": "Prêmio Frost & Sullivan de Liderança em Valor ao Cliente 2022"
+        },
+        "legal": {
+          "title": "Legal e Licenciamento",
+          "terms": "Termos de Uso",
+          "eula": "Contrato de Licença de Usuário Final (EULA)",
+          "privacy": "Política de Privacidade e Cookies",
+          "conditions": "Termos e Condições",
+          "operations": "Operações"
+        }
+      }
+    }
   },
   "heroBanner": {
     "title": "<normal>Segura® capta</normal><em> rodada de investimento</em><normal> da Riverwood Capital</normal>",

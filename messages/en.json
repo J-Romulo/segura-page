@@ -23,7 +23,162 @@
       "company": "Company",
       "resources": "Resources"
     },
-    "demo": "Book a Demo"
+    "demo": "Book a Demo",
+    "dropdowns": {
+      "platform": {
+        "col1": {
+          "item1": { "title": "Secure Privileged Access", "desc": "Discover, manage, protect, and audit privileged accounts and sessions." },
+          "item2": { "title": "Endpoint Privilege Management", "desc": "Just-in-time and on-demand endpoint privilege management and elevation." },
+          "item3": { "title": "Multi-Cloud Identity Security", "desc": "Secure access to cloud consoles and services across multi-cloud environments." },
+          "item4": { "title": "DevOps Secrets Management", "desc": "Secrets management for applications, databases, CI/CD tools, and services." }
+        },
+        "col2": {
+          "item1": { "title": "Certificate Management", "desc": "Full lifecycle certificate management, automation, and publishing." },
+          "item2": { "title": "Privileged Remote Access", "desc": "VPN-less granular remote access for your employees, vendors, and third parties." },
+          "item3": { "title": "Personal Password Manager", "desc": "Securely store all of your personal passwords and sensitive data." },
+          "item4": { "title": "Privileged Infrastructure", "desc": "Appliance-based scalable high-availability infrastructure for heightened security." }
+        },
+        "cta": {
+          "title": "360º Privilege Platform",
+          "desc": "A comprehensive, extensible platform that lets you ensure least privilege best practices and improve your security posture across the enterprise with the lowest cost of ownership and fastest deployment in the industry.",
+          "button": "Explore Products ›"
+        }
+      },
+      "solutions": {
+        "byUseCase": {
+          "title": "By Use Case",
+          "audit": "Audit and Compliance",
+          "dataTheft": "Data Theft Prevention",
+          "devops": "DevOps",
+          "insiderThreat": "Insider Threat Elimination",
+          "thirdParty": "Third Party & Remote Access",
+          "recording": "Privileged Access Recording",
+          "privilegeAbuse": "Privilege Abuse",
+          "hardcoded": "Hardcoded Passwords"
+        },
+        "byUseCase2": {
+          "passwordReset": "Password Reset",
+          "cyberInsurance": "Cyber Insurance",
+          "machineIdentity": "Machine Identity",
+          "itdr": "Identity Threat Detection and Response"
+        },
+        "byIndustry": {
+          "title": "By Industry",
+          "energy": "Energy and Utilities",
+          "financial": "Financial",
+          "government": "Government",
+          "healthcare": "Health Care",
+          "legal": "Legal",
+          "telecoms": "Telecoms",
+          "retail": "Retail"
+        },
+        "byCertification": {
+          "title": "By Certification"
+        }
+      },
+      "services": {
+        "deployment": {
+          "title": "Deployment and Consulting",
+          "desc": "We and our partners offer professional services for the deployment of our solutions, including initial setup, customization, and consulting.",
+          "cta": "Explore Deployment"
+        },
+        "solutionCenter": {
+          "title": "Solution Center",
+          "desc": "We offer award-winning support to all our customers. Find out about our support services and resources and how to contact our support here.",
+          "cta": "Explore Our Solution Center"
+        },
+        "training": {
+          "title": "Training",
+          "desc": "Access guidelines, documentation, and videos to better understand our products and services on our e-learning portal.",
+          "cta": "Explore Training & Certifications"
+        }
+      },
+      "partners": {
+        "affinity": {
+          "title": "Affinity Partner Program",
+          "about": "About the Program",
+          "become": "Become a Partner",
+          "azure": "Segura® on Azure",
+          "linkedin": "Partners Group on LinkedIn"
+        },
+        "seePartners": {
+          "title": "See our Partners",
+          "desc": "We work with partners worldwide to deliver our leading solution to your organization.",
+          "cta": "Find a partner ›"
+        }
+      },
+      "company": {
+        "aboutUs": {
+          "title": "About Us",
+          "meet": "Meet Segura®",
+          "careers": "Careers",
+          "contact": "Contact Us",
+          "build": "Build With Us"
+        },
+        "whySegura": {
+          "title": "Why Segura®",
+          "advantage": "The Segura® advantage",
+          "pricing": "Pricing",
+          "trust": "Trust Center",
+          "awards": "Awards & Analyst coverage",
+          "mea": "Segura® in the MEA",
+          "jiujitciso": "Segura@ JiuJitCISO"
+        },
+        "news": {
+          "title": "News",
+          "inTheNews": "Segura® in the News",
+          "pressRoom": "Press Room"
+        },
+        "coe": {
+          "title": "Centers of Excellence",
+          "saoPaulo": "São Paulo Headquarter",
+          "riyadh": "Riyadh CoE",
+          "austin": "Austin CoE",
+          "katowice": "Katowice CoE",
+          "kualaLumpur": "Kuala Lumpur CoE - SOON!",
+          "singapore": "Singapore CoE - SOON!",
+          "manila": "Manila CoE - SOON!"
+        }
+      },
+      "resources": {
+        "productInfo": {
+          "title": "Product Information",
+          "datasheets": "Datasheets",
+          "architecture": "Architecture",
+          "integrations": "Integrations",
+          "security": "Security",
+          "documentation": "Documentation",
+          "customerCases": "Customer Cases"
+        },
+        "cybersecurity": {
+          "title": "Cybersecurity Information",
+          "blog": "Blog",
+          "pamaturity": "PAMaturity",
+          "pam101": "Privileged Access Management 101",
+          "attackSurface": "A Guide to Attack Surface Management",
+          "cloudSecurity": "Cloud Security: 5 Concerns",
+          "gartnerMetrics": "Gartner's 16 Metrics for Cyber Protection",
+          "pamCosts": "PAM Implementation Costs",
+          "identitySecurity": "Identity Security Intelligence"
+        },
+        "reports": {
+          "title": "Reports",
+          "gartner2025": "Gartner Magic Quadrant Report 2025",
+          "softwareReviews": "SoftwareReviews Data Quadrant Report PAM 2024",
+          "kuppingerCole": "KuppingerCole 2023 Leadership Compass Report for Privileged Access",
+          "gartner2021": "Gartner Magic Quadrant for PAM 2021 Report",
+          "frostSullivan": "2022 Frost & Sullivan Customer Value Leadership Award"
+        },
+        "legal": {
+          "title": "Legal and Licensing",
+          "terms": "Terms of Use",
+          "eula": "End User License Agreement (EULA)",
+          "privacy": "Privacy and Cookies Policy",
+          "conditions": "Terms and Conditions",
+          "operations": "Operations"
+        }
+      }
+    }
   },
   "heroBanner": {
     "title": "<normal>Segura® raises</normal><em> strategic growth round</em><normal> from Riverwood Capital</normal>",

@@ -8,6 +8,8 @@ import { Homepage } from './homepage';
 // "All-In_One " overview
 // Description of gartner report different depending on language
 // In some mobile devices the dropdown in the nav menu cuts the title
+// Experienced intermittently the menu dropdown not closing and staying ove rother menu dropdowns that I tried to open
+// Accessibility concerns, language switch not being focusable by keyboard, texts are not read by screen readers, faq is entirely not readable
 
 // Fix icons, create components for them or use from lucide
 // Responsividade

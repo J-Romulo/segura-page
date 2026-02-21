@@ -9,17 +9,11 @@ import SeguraLogo from '../../../assets/segura_logo.svg';
 import { LangSwitcher } from '../../ui/LangSwitcher';
 import { Menu } from './menu';
 import { Banner } from './banner';
-import { NavItem } from './navItem';
+import { NavItem } from './navMenu/navItem';
 import { Button } from '../../ui/Button';
+import { DROPDOWNS } from './navMenu/dropdowns';
 
-const NAV_ITEMS = [
-  'platform',
-  'solutions',
-  'services',
-  'partners',
-  'company',
-  'resources',
-] as const;
+const NAV_ITEMS = Object.keys(DROPDOWNS) as Array<keyof typeof DROPDOWNS>;
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -64,15 +58,14 @@ export function Header() {
           <nav
             className={` ${mobileMenuOpen ? 'flex' : 'hidden'} absolute top-full left-0 z-40 max-h-[80vh] w-full flex-col items-start overflow-auto bg-white font-sans text-[14px] shadow-lg lg:static lg:flex lg:max-h-none lg:w-auto lg:flex-row lg:items-center lg:gap-0.5 lg:overflow-visible lg:bg-transparent lg:shadow-none`}
           >
-            {NAV_ITEMS.map((key) => (
-              <NavItem key={key} label={translation(`nav.${key}`)}>
-                <div className="px-24 py-8">
-                  <p className="text-deep-green/40 text-sm italic">
-                    — {translation(key)} dropdown coming soon —
-                  </p>
-                </div>
-              </NavItem>
-            ))}
+            {NAV_ITEMS.map((key) => {
+              const Dropdown = DROPDOWNS[key];
+              return (
+                <NavItem key={key} label={translation(`nav.${key}`)}>
+                    <Dropdown />
+                </NavItem>
+              );
+            })}
 
             <Button
               href="/demo"
