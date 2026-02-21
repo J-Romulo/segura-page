@@ -1,77 +1,85 @@
-import Image from "next/image";
-import { useTranslations, useLocale } from "next-intl";
-import GartnerReportImg from "../../../../../assets/homepage/gartnerReport/gartnerReport.png";
-import { Button } from "../../../../../components/ui/Button";
+import Image from 'next/image';
+import { useTranslations, useLocale } from 'next-intl';
+import GartnerReportImg from '../../../../../assets/homepage/gartnerReport/gartnerReport.png';
+import { Button } from '../../../../../components/ui/Button';
 
 export function GartnerReport() {
-  const translation = useTranslations("gartnerReport");
+  const translation = useTranslations('gartnerReport');
   const locale = useLocale();
-  const isBR = locale === "pt";
+  const isBR = locale === 'pt';
 
-  const checkItems = translation.raw("checkItems") as string[];
+  const checkItems = translation.raw('checkItems') as string[];
 
   return (
     <section
-      className='bg-deep-green py-16'
-      style={{ fontFamily: "Inter, Arial, sans-serif" }}>
-      <div className='container mx-auto w-full max-md:max-w-full px-12'>
-        <div className='w-full grid grid-cols-1 md:grid-cols-12 md:gap-y-8 gap-x-3 md:gap-x-12 items-start gap-10'>
-
-          <div className='col-span-12 md:col-span-9 flex flex-col gap-4 h-full justify-center text-segura-white'>
-            <h2 className='font-display text-4xl font-semibold text-segura-white'>
-              {translation("title")}
+      className="bg-deep-green py-16"
+      style={{ fontFamily: 'Inter, Arial, sans-serif' }}
+    >
+      <div className="container mx-auto w-full px-12 max-md:max-w-full">
+        <div className="grid w-full grid-cols-1 items-start gap-10 gap-x-3 md:grid-cols-12 md:gap-x-12 md:gap-y-8">
+          <div className="text-segura-white col-span-12 flex h-full flex-col justify-center gap-4 md:col-span-9">
+            <h2 className="font-display text-segura-white text-4xl font-semibold">
+              {translation('title')}
             </h2>
-            <p className='text-xl font-normal text-segura-white'>
-              <span className={`font-display text-2xl ${isBR ? 'text-segura-white' : 'text-go-green'}`}>
-                <em>{translation("subtitle")}</em>
+            <p className="text-segura-white text-xl font-normal">
+              <span
+                className={`font-display text-2xl ${isBR ? 'text-segura-white' : 'text-go-green'}`}
+              >
+                <em>{translation('subtitle')}</em>
               </span>
-              <br /><br />
-              {translation("description")}
+              <br />
+              <br />
+              {translation('description')}
             </p>
 
-            <div className='flex flex-col gap-2'>
+            <div className="flex flex-col gap-2">
               {checkItems.map((item) => (
-                <div key={item} className='flex gap-2 items-center'>
-                  <div className='flex items-center mr-2 shrink-0'>
+                <div key={item} className="flex items-center gap-2">
+                  <div className="mr-2 flex shrink-0 items-center">
                     <svg
-                      width='30'
-                      height='30'
-                      viewBox='0 0 30 30'
-                      fill='none'
-                      className='shrink-0'>
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                      className="shrink-0"
+                    >
                       <path
-                        d='M5 15L12 22L25 8'
-                        stroke='#00d1b5'
-                        strokeWidth='2.5'
-                        strokeLinecap='round'
-                        strokeLinejoin='round'
+                        d="M5 15L12 22L25 8"
+                        stroke="#00d1b5"
+                        strokeWidth="2.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                   </div>
-                  <p className='text-segura-white'>{item}</p>
+                  <p className="text-segura-white">{item}</p>
                 </div>
               ))}
             </div>
 
-            <div className='flex flex-row flex-wrap gap-4 mt-3'>
+            <div className="mt-3 flex flex-row flex-wrap gap-4">
               <Button
-                href={isBR ? '/pt-br/empresa/relatorio-gartner-magic-quadrant-pam-2025' : '/company/gartner-pam-magic-quadrant-2025-report'}
-                variant={"secondary"}>
-                {translation("cta")}
+                href={
+                  isBR
+                    ? '/pt-br/empresa/relatorio-gartner-magic-quadrant-pam-2025'
+                    : '/company/gartner-pam-magic-quadrant-2025-report'
+                }
+                variant={'secondary'}
+              >
+                {translation('cta')}
               </Button>
             </div>
           </div>
 
-          <div className='col-span-12 md:col-span-3'>
-            <div className='flex justify-start md:justify-center'>
+          <div className="col-span-12 md:col-span-3">
+            <div className="flex justify-start md:justify-center">
               <Image
                 src={GartnerReportImg}
-                alt={translation("imageAlt")}
-                className='block max-w-full h-auto object-contain w-full rounded-lg'
+                alt={translation('imageAlt')}
+                className="block h-auto w-full max-w-full rounded-lg object-contain"
               />
             </div>
           </div>
-
         </div>
       </div>
     </section>

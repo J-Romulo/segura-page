@@ -30,10 +30,7 @@
     "description": "Leading tech investor from the Silicon Valley backs the PAM platform <highlight>trusted by 1,000+</highlight> growing organizations worldwide.",
     "riverwoodAlt": "Riverwood Capital",
     "cta": "Read the Announcement ›",
-    "stats": [
-      "Trusted by 1,000+ Enterprises",
-      "Across 70 Countries"
-    ]
+    "stats": ["Trusted by 1,000+ Enterprises", "Across 70 Countries"]
   },
   "overview": {
     "title": "The Complete Identity Security Platform",
@@ -163,56 +160,56 @@
     "privacy": "Privacy",
     "cookies": "Cookies",
     "links": {
-        "stayConnected": {
-          "title": "STAY CONNECTED",
-          "description": "Stay updated on security best practices, upcoming events, and webinars.",
-          "cta": "See how ›"
-        },
-        "support": {
-          "title": "Support",
-          "documentation": "Documentation",
-          "solutionCenter": "Solution Center",
-          "suggestions": "Suggestions",
-          "trainingAndCertification": "Training and Certification",
-          "deploymentAndConsulting": "Deployment and Consulting",
-          "supportPolicy": "Support Policy"
-        },
-        "resources": {
-          "title": "Resources",
-          "blog": "Blog Segura®",
-          "ebooks": "eBooks",
-          "whitepapers": "Whitepapers",
-          "datasheets": "Datasheets",
-          "infographics": "Infographics",
-          "caseStudies": "Case Studies",
-          "webinarsAndEvents": "Webinars and Events"
-        },
-        "partners": {
-          "title": "Partners",
-          "aboutTheProgram": "About the Program",
-          "becomeAPartner": "Become a Partner",
-          "securityAllianceProgram": "Security Alliance Program",
-          "university": "Segura® University | Certification"
-        },
-        "company": {
-          "title": "Company",
-          "aboutUs": "About Us",
-          "achievements": "Achievements",
-          "workWithUs": "Work With Us",
-          "operations": "Operations",
-          "termsOfUse": "Terms of Use",
-          "privacyAndCookiePolicy": "Privacy and Cookie Policy",
-          "informationSecurityPolicy": "Information Security Policy",
-          "whistleblowingChannel": "Whistleblowing Channel"
-        },
-        "usCenter": {
-          "title": "US Center",
-          "name": "US Center of Excellence",
-          "address": "801 Barton Springs Rd, Austin, TX",
-          "zip": "78704, United States",
-          "phone1": "USA +1 302412 1512",
-          "phone2": "+1 888 567 9521"
-        }
+      "stayConnected": {
+        "title": "STAY CONNECTED",
+        "description": "Stay updated on security best practices, upcoming events, and webinars.",
+        "cta": "See how ›"
+      },
+      "support": {
+        "title": "Support",
+        "documentation": "Documentation",
+        "solutionCenter": "Solution Center",
+        "suggestions": "Suggestions",
+        "trainingAndCertification": "Training and Certification",
+        "deploymentAndConsulting": "Deployment and Consulting",
+        "supportPolicy": "Support Policy"
+      },
+      "resources": {
+        "title": "Resources",
+        "blog": "Blog Segura®",
+        "ebooks": "eBooks",
+        "whitepapers": "Whitepapers",
+        "datasheets": "Datasheets",
+        "infographics": "Infographics",
+        "caseStudies": "Case Studies",
+        "webinarsAndEvents": "Webinars and Events"
+      },
+      "partners": {
+        "title": "Partners",
+        "aboutTheProgram": "About the Program",
+        "becomeAPartner": "Become a Partner",
+        "securityAllianceProgram": "Security Alliance Program",
+        "university": "Segura® University | Certification"
+      },
+      "company": {
+        "title": "Company",
+        "aboutUs": "About Us",
+        "achievements": "Achievements",
+        "workWithUs": "Work With Us",
+        "operations": "Operations",
+        "termsOfUse": "Terms of Use",
+        "privacyAndCookiePolicy": "Privacy and Cookie Policy",
+        "informationSecurityPolicy": "Information Security Policy",
+        "whistleblowingChannel": "Whistleblowing Channel"
+      },
+      "usCenter": {
+        "title": "US Center",
+        "name": "US Center of Excellence",
+        "address": "801 Barton Springs Rd, Austin, TX",
+        "zip": "78704, United States",
+        "phone1": "USA +1 302412 1512",
+        "phone2": "+1 888 567 9521"
       }
+    }
   }
 }

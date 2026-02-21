@@ -1,4 +1,4 @@
-import { Homepage } from "./homepage";
+import { Homepage } from './homepage';
 
 //Errors: "All-in-on" solutuon
 // "Prove compliance on day one" section button, hover background transparent and button icons not showing on hover
@@ -16,7 +16,5 @@ import { Homepage } from "./homepage";
 // Responsividade
 // Acessibilidade
 export default function Home() {
-  return (
-    <Homepage />
-  );
+  return <Homepage />;
 }

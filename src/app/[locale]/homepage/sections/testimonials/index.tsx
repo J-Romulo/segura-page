@@ -1,62 +1,65 @@
-import Image from "next/image";
-import { useTranslations } from "next-intl";
-import TestimonialBg from "../../../../../assets/homepage/testimonials/background.webp";
-import Stars from "../../../../../assets/homepage/testimonials/stars.svg";
-import { Button } from "../../../../../components/ui/Button";
+import Image from 'next/image';
+import { useTranslations } from 'next-intl';
+import TestimonialBg from '../../../../../assets/homepage/testimonials/background.webp';
+import Stars from '../../../../../assets/homepage/testimonials/stars.svg';
+import { Button } from '../../../../../components/ui/Button';
 
 export function Testimonials() {
-  const translation = useTranslations("testimonials");
-  const stats = translation.raw("stats") as { number: string; description: string }[];
+  const translation = useTranslations('testimonials');
+  const stats = translation.raw('stats') as {
+    number: string;
+    description: string;
+  }[];
 
   return (
-    <section
-      className='overflow-hidden bg-cover relative'>
-      <div className='absolute inset-0 z-0'>
+    <section className="relative overflow-hidden bg-cover">
+      <div className="absolute inset-0 z-0">
         <Image
           src={TestimonialBg}
-          alt=''
+          alt=""
           fill
-          className='object-cover object-top'
+          className="object-cover object-top"
           priority
         />
       </div>
 
-      <div className='relative flex flex-col bg-gradient-to-r from-segura-black to-transparent'>
-        <div className='container mx-auto relative py-16 flex flex-col justify-center items-start w-full max-md:max-w-full px-12'>
-          <div className='flex flex-col max-w-full gap-10 w-full md:max-w-xl'>
+      <div className="from-segura-black relative flex flex-col bg-gradient-to-r to-transparent">
+        <div className="relative container mx-auto flex w-full flex-col items-start justify-center px-12 py-16 max-md:max-w-full">
+          <div className="flex w-full max-w-full flex-col gap-10 md:max-w-xl">
             <Image
               src={Stars}
-              alt='Stars'
+              alt="Stars"
               width={50}
               height={60}
-              className='object-contain w-1/3'
+              className="w-1/3 object-contain"
             />
 
-            <article className='text-lg font-light leading-7 text-segura-white break-words w-full'>
-              <blockquote className='flex flex-col gap-2'>
-                <p className='font-display text-lg md:text-xl font-semibold text-segura-white'>
-                  {translation("quoteTitle")}
+            <article className="text-segura-white w-full text-lg leading-7 font-light break-words">
+              <blockquote className="flex flex-col gap-2">
+                <p className="font-display text-segura-white text-lg font-semibold md:text-xl">
+                  {translation('quoteTitle')}
                 </p>
-                <p className='font-sans text-base font-normal text-segura-white'>
-                  {translation("quoteContent")}
+                <p className="text-segura-white font-sans text-base font-normal">
+                  {translation('quoteContent')}
                 </p>
-                <div className='font-sans font-medium text-sm text-segura-white'>
-                  {translation("quoteAuthor")}
+                <div className="text-segura-white font-sans text-sm font-medium">
+                  {translation('quoteAuthor')}
                 </div>
               </blockquote>
             </article>
 
-            <div className='flex gap-5 justify-between flex-col md:flex-row'>
+            <div className="flex flex-col justify-between gap-5 md:flex-row">
               {stats.map(({ number, description }) => (
                 <div
                   key={number}
-                  className='border-l-2 border-solid border-mint-green font-sans'>
-                  <div className='flex flex-col pl-4'>
-                    <p className='self-start text-lg md:text-1xl lg:text-2xl font-bold leading-none text-segura-white'>
+                  className="border-mint-green border-l-2 border-solid font-sans"
+                >
+                  <div className="flex flex-col pl-4">
+                    <p className="md:text-1xl text-segura-white self-start text-lg leading-none font-bold lg:text-2xl">
                       {number}
                     </p>
                     <p
-                      className='text-base leading-7 text-segura-white font-normal'
+                      className="text-segura-white text-base leading-7 font-normal"
                       dangerouslySetInnerHTML={{ __html: description }}
                     />
                   </div>
@@ -64,8 +67,8 @@ export function Testimonials() {
               ))}
             </div>
 
-            <Button href='/about' variant='transparent-white'>
-              {translation("cta")}
+            <Button href="/about" variant="transparent-white">
+              {translation('cta')}
             </Button>
           </div>
         </div>

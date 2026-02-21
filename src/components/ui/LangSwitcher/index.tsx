@@ -1,23 +1,29 @@
-import Link from "next/link";
-import { Earth, ChevronDown } from "lucide-react";
+import Link from 'next/link';
+import { Earth, ChevronDown } from 'lucide-react';
 
 export function LangSwitcher() {
   return (
-    <div className="relative group flex items-center gap-1 cursor-pointer">
-      <div className="flex items-center gap-1 text-deep-green">
+    <div className="group relative flex cursor-pointer items-center gap-1">
+      <div className="text-deep-green flex items-center gap-1">
         <Earth size={20} strokeWidth={1.75} />
         <ChevronDown size={14} strokeWidth={2.5} />
       </div>
 
-      <div className="absolute top-5 -right-16 w-fit opacity-0 group-hover:opacity-100 ease-in-out duration-300 delay-700 shadow-xl bg-white pb-6 pt-8 px-2 z-50">
-        <ul className="flex flex-col gap-2 items-center">
+      <div className="absolute top-5 -right-16 z-50 w-fit bg-white px-2 pt-8 pb-6 opacity-0 shadow-xl delay-700 duration-300 ease-in-out group-hover:opacity-100">
+        <ul className="flex flex-col items-center gap-2">
           <li>
-            <Link href="/" className="flex py-2 px-3 text-deep-green font-normal hover:bg-mint-green/10 hover:rounded-lg hover:text-mid-green transition-colors">
+            <Link
+              href="/"
+              className="text-deep-green hover:bg-mint-green/10 hover:text-mid-green flex px-3 py-2 font-normal transition-colors hover:rounded-lg"
+            >
               English
             </Link>
           </li>
           <li>
-            <Link href="/pt-br" className="flex py-2 px-3 text-deep-green font-normal hover:bg-mint-green/10 hover:rounded-lg hover:text-mid-green transition-colors">
+            <Link
+              href="/pt-br"
+              className="text-deep-green hover:bg-mint-green/10 hover:text-mid-green flex px-3 py-2 font-normal transition-colors hover:rounded-lg"
+            >
               Português
             </Link>
           </li>

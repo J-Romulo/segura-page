@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   /* Segura Brand Colors */
@@ -6,7 +6,7 @@
   --color-mid-green: #006b69;
   --color-go-green: #00d1b5;
   --color-mint-green: #9af1dc;
-  --color-password-green: #F0F9F7;
+  --color-password-green: #f0f9f7;
 
   --color-sand-beige: #fdf8f1;
   --color-segura-black: #141414;
@@ -21,7 +21,7 @@
 @theme inline {
   /* Fonts */
   --font-sans: var(--font-inter);
-  --font-display: "Sentient", "STIX Two Text", Georgia, serif;
+  --font-display: 'Sentient', 'STIX Two Text', Georgia, serif;
 
   /* Expose all brand colors to Tailwind */
   --color-background: var(--background);
@@ -43,6 +43,11 @@ body {
   font-family: var(--font-sans);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-display);
 }

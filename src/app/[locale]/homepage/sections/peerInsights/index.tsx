@@ -1,44 +1,46 @@
-import Image from "next/image";
-import { useTranslations } from "next-intl";
-import Ratings from "../../../../../assets/homepage/peerInsights/insights.png";
-import { Button } from "../../../../../components/ui/Button";
+import Image from 'next/image';
+import { useTranslations } from 'next-intl';
+import Ratings from '../../../../../assets/homepage/peerInsights/insights.png';
+import { Button } from '../../../../../components/ui/Button';
 
 export function PeerInsights() {
-  const translation = useTranslations("peerInsights");
+  const translation = useTranslations('peerInsights');
 
   return (
-    <section
-      className='bg-mint-green py-16'>
-      <div className='container mx-auto w-full max-md:max-w-full px-12'>
-        <div className='w-full grid grid-cols-1 md:grid-cols-12 md:gap-y-8 gap-x-3 md:gap-x-12 items-start gap-10'>
-
-          <div className='col-span-12 md:col-span-6 flex flex-col gap-4 h-full justify-center text-deep-green'>
-            <h2 className='font-display text-4xl font-semibold text-deep-green'>
-              {translation("title")}
+    <section className="bg-mint-green py-16">
+      <div className="container mx-auto w-full px-12 max-md:max-w-full">
+        <div className="grid w-full grid-cols-1 items-start gap-10 gap-x-3 md:grid-cols-12 md:gap-x-12 md:gap-y-8">
+          <div className="text-deep-green col-span-12 flex h-full flex-col justify-center gap-4 md:col-span-6">
+            <h2 className="font-display text-deep-green text-4xl font-semibold">
+              {translation('title')}
             </h2>
-            <p className='text-xl font-normal text-deep-green'>
-              {translation.rich("description", {
+            <p className="text-deep-green text-xl font-normal">
+              {translation.rich('description', {
                 b: (chunks) => <b>{chunks}</b>,
-                br: () => <><br /><br /></>,
+                br: () => (
+                  <>
+                    <br />
+                    <br />
+                  </>
+                ),
               })}
             </p>
-            <div className='flex flex-row flex-wrap gap-4 mt-3'>
-              <Button href='/demo' variant='primary'>
-                {translation("cta")}
+            <div className="mt-3 flex flex-row flex-wrap gap-4">
+              <Button href="/demo" variant="primary">
+                {translation('cta')}
               </Button>
             </div>
           </div>
 
-          <div className='col-span-12 md:col-span-6'>
-            <div className='flex justify-start md:justify-center'>
+          <div className="col-span-12 md:col-span-6">
+            <div className="flex justify-start md:justify-center">
               <Image
                 src={Ratings}
-                alt={translation("imageAlt")}
-                className='block max-w-full h-auto object-contain w-full'
+                alt={translation('imageAlt')}
+                className="block h-auto w-full max-w-full object-contain"
               />
             </div>
           </div>
-
         </div>
       </div>
     </section>
