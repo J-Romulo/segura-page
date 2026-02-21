@@ -6,7 +6,7 @@ import { EN_FAQS } from './faq.en';
 export function FAQ() {
   const translation = useTranslations('faq');
   const locale = useLocale();
-  const FAQS = locale === 'pt-br' ? PT_FAQS : EN_FAQS;
+  const FAQS = locale === 'pt' ? PT_FAQS : EN_FAQS;
 
   return (
     <section className="bg-deep-green text-segura-white py-16">
@@ -20,10 +20,7 @@ export function FAQ() {
 
           <div className="flex w-full flex-1 flex-col gap-8 font-sans">
             {FAQS.map((faq, index) => (
-              <Accordion
-                key={index}
-                title={faq.question}
-              >
+              <Accordion key={index} title={faq.question}>
                 {faq.answer}
               </Accordion>
             ))}
