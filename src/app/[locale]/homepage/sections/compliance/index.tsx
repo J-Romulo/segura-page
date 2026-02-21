@@ -1,4 +1,5 @@
 import Image from "next/image";
+import React from "react";
 import { useTranslations } from "next-intl";
 import ComplianceBanner from "../../../../../assets/homepage/compliance/complianceBanner.png";
 import { Button } from "../../../../../components/ui/Button";
@@ -11,11 +12,11 @@ import {
 } from "lucide-react";
 
 const ICONS = [
-  <Lock size={20} />,
-  <DollarSign size={20} />,
-  <Activity size={20} />,
-  <Shield size={20} />,
-  <ChartNoAxesColumn size={20} />,
+  <Lock key="lock" size={20} />,
+  <DollarSign key="dollar" size={20} />,
+  <Activity key="activity" size={20} />,
+  <Shield key="shield" size={20} />,
+  <ChartNoAxesColumn key="chart" size={20} />,
 ];
 
 export function Compliance() {
