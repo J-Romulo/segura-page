@@ -9,12 +9,12 @@ export function ComparisonTable() {
 
   return (
     <section className="bg-segura-white py-16">
-      <div className="container mx-auto flex w-full flex-col items-center justify-center gap-10 px-17 text-center max-md:max-w-full max-w-[1320px]">
+      <div className="container mx-auto flex w-full max-w-[1320px] flex-col items-center justify-center gap-10 px-17 text-center max-md:max-w-full">
         <div className="flex flex-col gap-4 md:w-2/3">
-          <h2 className="text-deep-green text-[32px]/9 lg:text-4xl font-semibold">
+          <h2 className="text-deep-green text-[32px]/9 font-semibold lg:text-4xl">
             {translation('title')}
           </h2>
-          <p className="text-deep-green font-sans text-[16px] lg:text-lg leading-7">
+          <p className="text-deep-green font-sans text-[16px] leading-7 lg:text-lg">
             {translation.rich('description', {
               b: (chunks) => <b>{chunks}</b>,
               br: () => (

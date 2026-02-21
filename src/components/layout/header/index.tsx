@@ -31,7 +31,7 @@ export function Header() {
       <Menu />
 
       <section className="w-full bg-white py-2 shadow-xl">
-          <div className="flex items-center justify-between px-8 lg:px-21 max-w-[1320px] mx-auto">
+        <div className="mx-auto flex max-w-[1320px] items-center justify-between px-8 lg:px-21">
           <div className="z-50 shrink-0">
             <Link href="/">
               <Image
@@ -53,7 +53,7 @@ export function Header() {
               {mobileMenuOpen ? (
                 <X size={22} strokeWidth={1.5} />
               ) : (
-                <MenuIcon size={28} strokeWidth={2}/>
+                <MenuIcon size={28} strokeWidth={2} />
               )}
             </button>
             <div className="z-40">
@@ -74,7 +74,11 @@ export function Header() {
               </NavItem>
             ))}
 
-            <Button href="/demo" variant="primary" className='mb-[16px] ml-[49px] lg:ml-0 lg:mb-0'>
+            <Button
+              href="/demo"
+              variant="primary"
+              className="mb-[16px] ml-[49px] lg:mb-0 lg:ml-0"
+            >
               {translation('demo')} ›
             </Button>
 

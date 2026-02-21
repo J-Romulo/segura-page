@@ -10,7 +10,7 @@ const COMPETITORS = [
 export function Competitors() {
   return (
     <section className="bg-mint-green pb-16">
-      <div className="container mx-auto flex w-full flex-wrap justify-between gap-4 px-17 max-md:max-w-full md:flex-row max-w-[1320px]">
+      <div className="container mx-auto flex w-full max-w-[1320px] flex-wrap justify-between gap-4 px-17 max-md:max-w-full md:flex-row">
         {COMPETITORS.map(({ label, href }) => (
           <div
             key={label}

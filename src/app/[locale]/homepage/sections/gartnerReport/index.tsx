@@ -16,13 +16,13 @@ export function GartnerReport() {
       className="bg-deep-green py-16"
       style={{ fontFamily: 'Inter, Arial, sans-serif' }}
     >
-      <div className="container mx-auto w-full px-17 max-md:max-w-full max-w-[1320px]">
+      <div className="container mx-auto w-full max-w-[1320px] px-17 max-md:max-w-full">
         <div className="grid w-full grid-cols-1 items-start gap-10 gap-x-3 md:grid-cols-12 md:gap-x-12 md:gap-y-8">
           <div className="text-segura-white col-span-12 flex h-full flex-col justify-center gap-4 md:col-span-9">
-            <h2 className="font-display text-segura-white text-[32px]/9 lg:text-4xl font-semibold">
+            <h2 className="font-display text-segura-white text-[32px]/9 font-semibold lg:text-4xl">
               {translation('title')}
             </h2>
-            <p className="text-segura-white text-[20px] lg:text-xl font-normal">
+            <p className="text-segura-white text-[20px] font-normal lg:text-xl">
               <span
                 className={`font-display lg:text-2xl ${isBR ? 'text-segura-white' : 'text-go-green'}`}
               >
@@ -37,7 +37,11 @@ export function GartnerReport() {
               {checkItems.map((item) => (
                 <div key={item} className="flex items-center gap-2">
                   <div className="mr-2 flex shrink-0 items-center">
-                    <CircleCheck size={33} strokeWidth={1.6} className="text-mint-green"/>
+                    <CircleCheck
+                      size={33}
+                      strokeWidth={1.6}
+                      className="text-mint-green"
+                    />
                   </div>
                   <p className="text-segura-white">{item}</p>
                 </div>
@@ -58,7 +62,7 @@ export function GartnerReport() {
             </div>
           </div>
 
-          <div className="col-span-12 md:col-span-3 order-first md:order-none">
+          <div className="order-first col-span-12 md:order-none md:col-span-3">
             <div className="flex justify-start md:justify-center">
               <Image
                 src={GartnerReportImg}

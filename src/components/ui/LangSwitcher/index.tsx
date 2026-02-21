@@ -18,8 +18,9 @@ export function LangSwitcher() {
         <ChevronDown size={14} strokeWidth={2.5} />
       </button>
 
-      <div className={`absolute top-5 -right-16 z-50 w-fit bg-white px-2 pt-8 pb-6 shadow-xl delay-700 duration-300 ease-in-out
-        ${open ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`}>
+      <div
+        className={`absolute top-5 -right-16 z-50 w-fit bg-white px-2 pt-8 pb-6 shadow-xl delay-700 duration-300 ease-in-out ${open ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`}
+      >
         <ul className="flex flex-col items-center gap-2">
           <li>
             <Link

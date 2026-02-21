@@ -24,7 +24,7 @@ export function Testimonials() {
       </div>
 
       <div className="from-segura-black relative flex flex-col bg-gradient-to-r to-transparent">
-        <div className="relative container mx-auto flex w-full flex-col items-start justify-center px-17 py-16 max-md:max-w-full max-w-[1320px]">
+        <div className="relative container mx-auto flex w-full max-w-[1320px] flex-col items-start justify-center px-17 py-16 max-md:max-w-full">
           <div className="flex w-full max-w-full flex-col gap-10 md:max-w-xl">
             <Image
               src={Stars}

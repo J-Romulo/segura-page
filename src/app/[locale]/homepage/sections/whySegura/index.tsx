@@ -13,9 +13,9 @@ export function WhySegura() {
 
   return (
     <section className="bg-deep-green text-segura-white py-16">
-      <div className="container mx-auto flex w-full flex-col justify-center gap-8 px-17 max-md:max-w-full max-w-[1320px]">
+      <div className="container mx-auto flex w-full max-w-[1320px] flex-col justify-center gap-8 px-17 max-md:max-w-full">
         <div className="flex flex-col items-center gap-3">
-          <h2 className="font-display text-[32px] lg:text-4xl font-semibold">
+          <h2 className="font-display text-[32px] font-semibold lg:text-4xl">
             {translation('title')}
           </h2>
         </div>

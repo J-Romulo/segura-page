@@ -22,7 +22,7 @@ export function HeroBanner() {
         />
       </div>
 
-      <div className="relative z-10 container mx-auto flex flex-col justify-between gap-10 px-21 lg:flex-row lg:gap-0 max-w-[1320px]">
+      <div className="relative z-10 container mx-auto flex max-w-[1320px] flex-col justify-between gap-10 px-21 lg:flex-row lg:gap-0">
         <div className="flex w-full flex-col gap-4 lg:w-[48%] lg:gap-6">
           <h1 className="text-segura-white text-4xl/13 font-semibold lg:text-5xl/13">
             {translation.rich('title', {
@@ -30,7 +30,7 @@ export function HeroBanner() {
               em: (chunks) => <em>{chunks}</em>,
             })}
           </h1>
-          <p className="text-segura-white font-sans text-base lg:text-lg lg:w-[92%]">
+          <p className="text-segura-white font-sans text-base lg:w-[92%] lg:text-lg">
             {translation.rich('description', {
               highlight: (chunks) => (
                 <span className="text-go-green font-semibold">{chunks}</span>

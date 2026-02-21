@@ -8,10 +8,10 @@ export function PeerInsights() {
 
   return (
     <section className="bg-mint-green py-16">
-      <div className="container mx-auto w-full px-17 max-md:max-w-full max-w-[1320px]">
+      <div className="container mx-auto w-full max-w-[1320px] px-17 max-md:max-w-full">
         <div className="grid w-full grid-cols-1 items-start gap-10 gap-x-3 md:grid-cols-12 md:gap-x-12 md:gap-y-8">
           <div className="text-deep-green col-span-12 flex h-full flex-col justify-center gap-4 md:col-span-6">
-            <h2 className="font-display text-deep-green text-[32px]/9 lg:text-4xl font-semibold">
+            <h2 className="font-display text-deep-green text-[32px]/9 font-semibold lg:text-4xl">
               {translation('title')}
             </h2>
             <p className="text-deep-green text-xl font-normal">
@@ -32,7 +32,7 @@ export function PeerInsights() {
             </div>
           </div>
 
-          <div className="col-span-12 md:col-span-6 order-first md:order-none">
+          <div className="order-first col-span-12 md:order-none md:col-span-6">
             <div className="flex justify-start md:justify-center">
               <Image
                 src={Ratings}
